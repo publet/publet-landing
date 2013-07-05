@@ -312,7 +312,7 @@ h4 {
     .people-desc li {
         text-align: left;
         color:#7D7D71;
-        font-size: 16px;
+        font-size: 14px;
         line-height:1.2em;
         margin-bottom: 10px;
 
@@ -396,14 +396,14 @@ a#beta-top-btn, .big-btn {
     display: inline-block;
     font: 400 16px/30px Arial Black, sans-serif;    
     padding: 6px 24px;
-	margin: 8px 10px;
+    margin: 8px 10px;
     font-weight:bold;
-	
+    
     -webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
    
-    color:black;	
+    color:black;    
     background: #bbe5f1; 
     text-shadow: #8FDEEF 0 -1px 0;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -417,21 +417,21 @@ a#beta-top-btn, .big-btn {
     color:#ffffff;
 }
 
-a#beta-top-btn:hover, .big-btn:hover {	
-    color: #ffffff;	
-    text-decoration: none;	
-	
-	background-color: #B8E5F0;	 
-	background-image: -moz-linear-gradient(top, #B8E5F0, #B8E5F0);
-	background-image: -ms-linear-gradient(top, #B8E5F0, #B8E5F0);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B8E5F0), to(#4787ed));
-	background-image: -webkit-linear-gradient(top, #B8E5F0, #B8E5F0);
-	background-image: -o-linear-gradient(top, #B8E5F0, #B8E5F0);
-	background-image: linear-gradient(top, #B8E5F0, #B8E5F0);
-	
-	background-repeat: repeat-x;
-  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B8E5F0', endColorstr='#4787ed', GradientType=0);
-	
+a#beta-top-btn:hover, .big-btn:hover {  
+    color: #ffffff; 
+    text-decoration: none;  
+    
+    background-color: #B8E5F0;   
+    background-image: -moz-linear-gradient(top, #B8E5F0, #B8E5F0);
+    background-image: -ms-linear-gradient(top, #B8E5F0, #B8E5F0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B8E5F0), to(#4787ed));
+    background-image: -webkit-linear-gradient(top, #B8E5F0, #B8E5F0);
+    background-image: -o-linear-gradient(top, #B8E5F0, #B8E5F0);
+    background-image: linear-gradient(top, #B8E5F0, #B8E5F0);
+    
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B8E5F0', endColorstr='#4787ed', GradientType=0);
+    
 }
 
 #beta{
@@ -439,6 +439,7 @@ a#beta-top-btn:hover, .big-btn:hover {
     padding-left:15px;
     padding-right: 15px;
 }
+
 
 /*
 * shadows
@@ -477,6 +478,21 @@ a#beta-top-btn:hover, .big-btn:hover {
 
 /* Input */
 
+#chimpform{
+    text-align:center;
+}
+
+label.sign-up{
+    color:#575757;
+    font-family: Avenir Next, arial black, Helvetica;
+    font-weight: none;
+    font-size: 20px;
+}
+
+
+
+/* Input */
+
 input[type=text] {
     border: 3px solid #bbe5f1; /*   #ef5444;   /* #e8e6e2 */
     -webkit-box-shadow: 
@@ -502,7 +518,6 @@ input[type=text] {
     width: 350px;
 
 }
-
 
 
 /* Article image size */
@@ -537,14 +552,6 @@ article img{
     margin-bottom: 20px;
 }
 
-.googleform {
-    margin-bottom:0px;
-}
-
-.googleform-top{
-    margin-top:0px;
-}
-
 
 /* Description */
 
@@ -562,7 +569,7 @@ article img{
 }
 
 #foot-nav{
-    padding-top:50px;
+    padding-top:0px;
     padding-bottom: 10px;
 }
 
@@ -807,3 +814,61 @@ ul.main-ul{
     color:black;
 }
 
+/* tumblr */
+#tumblr{
+
+}
+
+
+.tumblr_post{
+
+}
+
+.tumblr_postDate
+
+.tumblr_title { 
+
+}
+
+#tumblr{
+    text-align: left;
+    line-height: 1.3em;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+#tumblr ol.tumblr_posts li.tumblr_post > .tumblr_title{
+    font-size:35px;
+    line-height: 1.1em;
+    color:#bbe5f1;
+    font-weight: bold;
+    text-align: center;
+}
+
+#tumblr ol.tumblr_posts{
+    list-style-type: none;
+}
+
+.tumblr_body p{  
+    font-size: 16px;
+}   
+ 
+.tumblr_body img {  
+
+}
+.read_more_container {
+    
+}
+.read_more_container a {
+    
+}
+
+.tumblr_quote { 
+
+}
+.tumblr_quote p {       
+
+}
+.tumblr_source {
+    
+}
