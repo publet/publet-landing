@@ -61,7 +61,7 @@
             </li>
 
             <li>
-              <a href="booksAndMags.html" class="">Books &amp Mags</a>
+              <a href="booksAndMags.html" class="">Books &amp; Mags</a>
             </li>
 
             <li>
@@ -86,7 +86,7 @@
             <img class="img-responsive" src="img/Annual-Report-All.png">
             </img>
             <div class="sign-up-button col-lg-12 col-sm-12 col-12">
-              <button><a href="signup.html">Start Creating</a></button>
+              <button id="cta"><a href="signup.html">Start Creating</a></button>
             </div>
           </div>
           <div class="col-lg-1 col-sm-hidden col-hidden">
@@ -353,5 +353,17 @@
 
     <script src="js/main.js"></script>
 
+    <script type="text/javascript">
+    PUBLET.sixpack_session.participate('call-to-action-btn', ['standard', 'red'], function(err, resp) {
+      alt = resp.alternative.name
+      if (alt == 'red') {
+        $('#cta').css({'background-color': 'red'});
+      }
+    });
+
+    $('#cta').click(function(e) {
+      PUBLET.sixpack_session.convert('call-to-action-btn', function() {});
+    });
+    </script>
   </body>
 </html>
