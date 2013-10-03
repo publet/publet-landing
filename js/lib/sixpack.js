@@ -1,5 +1,5 @@
 (function () {
-    var sixpack = {base_url: "http://192.241.144.164:81", ip_address: null, user_agent: null};
+    var sixpack = {base_url: "http://localhost:5000", ip_address: null, user_agent: null};
 
     // check for node module loader
     var on_node = false;
