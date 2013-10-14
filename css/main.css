@@ -45,6 +45,7 @@ body{
 
 
 
+
 /* Drop-down menus in right-hand nav bar */
 .dropdown-menu{
 	padding: 0px;
@@ -60,6 +61,21 @@ body{
 		background-repeat: repeat-x;
 		line-height: 3.75;
 	}
+
+
+
+
+/* Carousel */
+
+a.left.carousel-control{
+	max-height: 100%;
+}
+
+
+.carousel-caption {
+	font-family: 	'Open Sans', 'Muli', sans-serif, arial;
+	color:#666666;
+}
 
 
 
@@ -114,7 +130,15 @@ body{
 		margin-bottom: 5px;
 		font-size: 50px;
 		text-transform: none;
+}
 
+.contact-img{
+	margin-top: 8%
+}
+	@media screen and (max-width: 769px){
+		.contact-img{
+			max-width: 50%;
+	}
 }
 
 .large-image h1.bg{
@@ -153,7 +177,8 @@ body{
 /*row with the image on the right */
 
 .box{
-		border-bottom: dashed 1px #595959;	
+		border-bottom: dashed 1px #595959;
+		padding:5% 0;
 }
 
 .box.lastchild{
@@ -161,20 +186,26 @@ body{
 }
 
 
+
 .text-box{
-	margin:40px auto;
 
 }
+
+
 	.text-box h2{
-		font-family: 'Open Sans', 'Muli', sans-serif, Arial, serif;
-		font-size: 26px;
-		color:#1782BF;
-		color:#7BDDEF;
-		color:#51b9db;
-		color:#52a8b7;
+		font-family:'Varela Round', 'Days One', 'Open Sans', 'Muli', sans-serif, Arial, serif;
+		font-size: 2.7em;
 		color:#87cfd5;
-		font-weight: 700;
+		font-weight: 400;
 	}
+
+.img-box{
+	text-align:center;
+}
+.img-box img{
+	margin:10px auto;
+}
+
 
 	.row-img-left .text-box h2{
 		color:#EF5444;
@@ -182,7 +213,7 @@ body{
 	}
 
 	.text-box p{
-		font-size: 14px;
+		font-size: 1.3em;
 		color:#757575;
 		color:#A6AEB3;
 		font-weight: 300;
@@ -196,24 +227,13 @@ body{
 			margin:0px auto;
 		}
 		.text-box h2 {
-			font-size: 24px;
+			font-size: 2.4em;
 		}
 
 		.text-box p{
-			font-size: 14px;
+			font-size: 1.2em;
 		}
 	}
-
-
-.img-box{
-	margin: 40px auto;
-}
-	@media only screen and (max-width: 979px){ 
-		.img-box{
-			margin: 0px auto;
-		}
-	}
-
 
 
 /* Footer */
@@ -273,24 +293,20 @@ body{
 }
 
 button{
-	background-color: #5BC4C2;
-	background-color: 	#87cfd5;
 	background-color: 	#EF5444;
-		-webkit-border-radius: 20px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
-			border-radius: 40px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+		-webkit-border-radius: 5px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+			border-radius: 5px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
 			padding: 8px 20px;
-			padding-bottom:12px;
+			padding-bottom:10px;
 			border: none;
 			margin-top:6px;
-			font-size:24px;
-			font-family:'Open Sans', sans-serif, 'Muli', Arial;
+			font-size:18px;
+			font-family: 'Muli', Arial, 'Open Sans', sans-serif;
 			font-weight: 	300;
-			border: solid 1px #595959;
 }
 
 button:hover{
-	background-color: 	#7BDDEF;
-			background-color: #87cfd5;	
+	background-color: #87cfd5;	
 }
 button a, button a:hover{
 	color:#595959;
@@ -455,8 +471,12 @@ margin:0px;
 	box-shadow: 0 8px 8px -5px rgba(0,0,0,.3);
 }
 
-#signup h2{
+#signup h2, #signup h3{
 	font-family: 	'Open Sans', 'Muli', Arial;
+}
+
+#signup h3{
+	font-size: 16px;
 }
 
 #signup input{
@@ -483,6 +503,9 @@ margin:0px;
 		}
 	}
 
+.sign-up-button > a > button{
+	color:white;
+}
 
 #about{
 margin-top: 40px;
@@ -509,15 +532,35 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 #about p{
 	margin-top:0px;
 	margin-bottom: 20px;
+		text-align: left;
 }
 
+	@media screen and (max-width: 789px){
+		#about p{
+			text-align: left;
+			margin-right: -30px;
+		}
+	}
+
+	@media screen and (max-width: 480px){
+			#about h2{
+			font-size:1.2em;
+			line-height: 1.2em;
+		}
+		#about h3{
+			font-size:1em;
+			line-height: 1.1em;
+			margin-top:0px;
+		}
+	}
+
 .about-img{
-	border: solid 2px white;	
+	border: solid 1px white;	
 	border-radius: 150px;	
 }
 
 .about-img img{
-	border: solid 2px #595959;	
+	border: solid 1px #595959;	
 	border-radius: 150px;
 }
 
@@ -539,11 +582,23 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 	color:#EF5444;
 }
 
+
+.share{
+
+	padding-top: 20px;
+}
+
+
+
+
+
+
 /* Testing purposes */
 
 .blue{
 	background-color: blue;
 }
+
 
 
 

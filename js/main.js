@@ -1,3 +1,20 @@
+var PUBLET = PUBLET || {};
+
+if (PUBLET.config === undefined) {
+  PUBLET.config = {
+    'sixpack_base_url': 'http://192.241.144.164:81'
+  };
+}
+
+(function () {
+  var sixpack_client_id = $.cookie('sixpack_client_id');
+  if (sixpack_client_id === undefined) {
+    sixpack_client_id = sixpack.generate_client_id();
+    $.cookie('sixpack_client_id', sixpack_client_id, { expires: 3650 });
+  }
+  PUBLET.sixpack_session = new sixpack.Session(sixpack_client_id, PUBLET.config.sixpack_base_url);
+})();
+
 window.onload = function () {
 	http://getpublet.tumblr.com/js
 
@@ -16,14 +33,14 @@ function createRequest(url) {
         xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
     page = url;
 }
- 
+
 function addParam(name,value) {
     if(useAmp == true)
         variables += "&";
     variables += escape(name) + "=" + escape(value)
     useAmp = true;
 }
- 
+
 function sendRequest(instructions,type) {
     //the instructions param takes the form of an eval statement
     if(type == null) {
@@ -36,7 +53,7 @@ function sendRequest(instructions,type) {
             }
         }
         xmlhttp.send();
- 
+
     }
     else {
         xmlhttp.open("POST", page, true);
@@ -52,9 +69,9 @@ function sendRequest(instructions,type) {
         }
         xmlhttp.send(variables);
     }
- 
- 
+
+
 }
 
-	
+
 }
