@@ -471,8 +471,12 @@ margin:0px;
 	box-shadow: 0 8px 8px -5px rgba(0,0,0,.3);
 }
 
-#signup h2{
+#signup h2, #signup h3{
 	font-family: 	'Open Sans', 'Muli', Arial;
+}
+
+#signup h3{
+	font-size: 16px;
 }
 
 #signup input{
@@ -499,6 +503,9 @@ margin:0px;
 		}
 	}
 
+.sign-up-button > a > button{
+	color:white;
+}
 
 #about{
 margin-top: 40px;
@@ -584,6 +591,11 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> buttons
 /* Testing purposes */
 
 .blue{
