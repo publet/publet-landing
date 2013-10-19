@@ -1,0 +1,81 @@
+/* Unique Styles */
+@font-face{
+	font-family: futura;
+	src: url(../fonts/Futura-Bk);
+}
+
+@font-face{
+	font-family: futura-lt;
+	src: url(../fonts/Futura-Lt);
+}
+
+@font-face{
+	font-family: futura-hv;
+	src: url(../fonts/Futura-Hv);
+}
+
+
+#testfont{
+	font-family: 'futura', 'Raleway', sans-serif;
+}
+
+
+div.block.block-heading h1, div.block.block-heading h2,{
+	font-family: 'futura-lt', 'Raleway', sans-serif;
+
+}
+
+
+div.block.block-fonts p a { background: #1ABAFC; color: white; display: inline-block; font-size: 14px; padding: 5px 7px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-transform: uppercase; }
+
+div.block.block-imageasset ul.image-assets li a, div.block.block-fonts p a {
+	padding:14px 32px;
+	margin-top:10px;
+	font-size: 16px;
+	font-family: 'futura-lt', 'Raleway', sans-serif;
+	border-radius: 32px;
+	-webkit-border-radius:20px;
+}
+
+div.block.block-cover{
+	background-color:#EF4176;
+	text-align: center;
+}
+
+
+.circle{
+	background-color:#EF4176;
+}
+
+div.block.block-colors table tbody tr td {
+	color:#EF4176;
+}
+
+div.toc{
+	margin:0px auto;
+	padding: 70px 70px 0px;
+	font-weight:400;
+
+}
+
+div.toc ul li a{
+	font-size: 16px;
+	font-weight:700;
+}
+
+
+
+.block.block-fonts.sixteen.columns{
+	margin-top:0px;
+}
+
+.block.block-heading.sixteen.columns.first-heading{
+	margin:7px;
+}
+
+
+
+.block.block-cover.center img{
+	width:960px;
+	margin:0px auto;
+}

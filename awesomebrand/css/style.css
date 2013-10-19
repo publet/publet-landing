@@ -1,0 +1,84 @@
+div.block.block-code code { font-family: monospace; padding: 0; }
+div.block.block-cover { position: relative; }
+div.block.block-cover img { width: 100%; }
+div.block.block-cover span { bottom: 40px; color: white; font-style: italic; font-size: 1.5em; font-weight: bold; left: 40px; line-height: normal; position: absolute; text-shadow: 2px 2px black; }
+div.block.block-colors table { width: 100%; }
+div.block.block-colors table thead { border-bottom: 4px solid black; }
+div.block.block-colors table thead tr th { font: bold 18px Georgia; padding-bottom: 5px; text-align: left; text-transform: uppercase; }
+div.block.block-colors table tbody tr td { border-bottom: 1px dotted black; vertical-align: middle; }
+div.block.block-colors table tbody tr td.circle { text-align: center; }
+div.block.block-colors table tbody tr td.circle span { content: ""; display: inline-block; left: 0; height: 50px; margin: 5px 0 5px 0; top: 0; width: 50px; -webkit-border-radius: 60px; -moz-border-radius: 60px; border-radius: 60px; }
+div.block.block-colors table tbody tr td.label { font-weight: bold; }
+div.block.block-imageasset div.preview img { max-width: 100%; }
+div.block.block-imageasset ul.image-assets li { font: normal 16px Helvetica; }
+div.block.block-imageasset ul.image-assets li a { background: #1ABAFC; color: white; display: inline-block; padding: 2px 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+div.block.block-imageasset ul.image-assets li span { margin-left: 5px; }
+div.block.block-imageasset ul.image-assets .background { background-color: gray; }
+div.block.block-photo.block-photo-full-bleed { width: 100%; }
+div.block.block-photo.block-photo-full-bleed img { width: 100%; }
+div.block.block-video div.video { height: 350px; margin: 20px 0; }
+
+div.block.block-cover { margin-top: 0; margin-bottom: -7px; /* Patch for weird gap beneath full-width image */ position: relative; }
+div.block.block-cover img { width: 100%; }
+div.block.block-cover span { bottom: 40px; color: white; font-style: italic; font-size: 1.5em; font-weight: bold; left: 40px; line-height: normal; position: absolute; text-shadow: 2px 2px black; }
+div.block.block-colors table { width: 100%; }
+div.block.block-colors table thead { border-bottom: 4px solid black; }
+div.block.block-colors table thead tr th { font: bold 18px Georgia; padding: 10px; padding-bottom: 5px; text-align: left; text-transform: uppercase; }
+div.block.block-colors table tbody tr td { border-bottom: 1px dotted black; font-size: 18px; padding: 10px; vertical-align: middle; }
+div.block.block-colors table tbody tr td.circle { text-align: center; }
+div.block.block-colors table tbody tr td.circle span { display: block; left: 0; height: 50px; margin: 5px 0 5px 0; top: 0; width: 50px; -webkit-border-radius: 60px; -moz-border-radius: 60px; border-radius: 60px; }
+div.block.block-colors table tbody tr td.label { font-weight: bold; }
+div.block.block-imageasset div.preview img { max-width: 100%; padding-bottom: 20px; }
+div.block.block-imageasset ul.image-assets li { font: normal 16px Helvetica; }
+div.block.block-imageasset ul.image-assets li a { background: #1ABAFC; color: white; display: inline-block; font-size: 14px; padding: 5px 7px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-transform: uppercase; }
+div.block.block-imageasset ul.image-assets li span { margin-left: 5px; }
+div.block.block-photo.full-bleed { width: 100%; }
+div.block.block-photo.full-bleed img { width: 100%; }
+
+.group:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.hidden { display: none; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { margin: 0; padding-bottom: 50px; }
+body a { color: #0088CC; text-decoration: none; }
+body a:hover { color: #005580; text-decoration: underline; }
+
+header { background: #E9E9E4; border-top: 12px solid black; font: normal 30px; margin-bottom: 25px; padding: 55px 0 80px 0; text-align: right; width: 100%; }
+header h1 { font-size: 32px; text-align: left; }
+
+div.block { font: normal 24px Times; margin-top: 25px; }
+div.block.block-heading { border-bottom: 2px solid #b8ab9b; border-top: 12px solid black; margin-bottom: 25px; margin-top: 50px; }
+div.block.block-heading h1 { display: inline; font: bold 58px / 70px Times; }
+div.block.block-heading h2 { color: #B8AB9B; display: inline; font: bold 40px / 50px Times; margin-left: 5px; }
+div.block.block-heading em { color: #ccc; font-style: normal; font-size: .75em; }
+div.block.block-photo img { max-width: 100%; }
+div.block.block-pullquote blockquote { border-left: 5px solid #eeeeee; color: #686866; font: italic 24px Times; padding-bottom: 9px; padding-left: 15px; }
+div.block.block-text { margin-bottom: 20px; }
+
+.guide-contents { padding-top: 15px; }
+.guide-contents li { padding: 5px 0; }
+.guide-contents a { color: #333; font-weight: bold; }
+
+.img-m { width: 50%; float: left; margin: 0 20px 0 10px; }
+
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/* SOCAP SPECIFIC */
+/* Font overrides */
+@font-face { font-family: 'AkzidenzGroteskBE-MdCn'; src: url("../../fonts/akzidenzgroteskbe-mdcn-webfont.eot"); src: url("../../fonts/akzidenzgroteskbe-mdcn-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/akzidenzgroteskbe-mdcn-webfont.woff") format("woff"), url("../../fonts/akzidenzgroteskbe-mdcn-webfont.ttf") format("truetype"), url("../../fonts/akzidenzgroteskbe-mdcn-webfont.svg#berthold_akzidenz_groteskMdCn") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'AkzidenzGroteskBE-Regular'; src: url("../../fonts/akzidenzgroteskbe-regular-webfont.eot"); src: url("../../fonts/akzidenzgroteskbe-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/akzidenzgroteskbe-regular-webfont.woff") format("woff"), url("../../fonts/akzidenzgroteskbe-regular-webfont.ttf") format("truetype"), url("../../fonts/akzidenzgroteskbe-regular-webfont.svg#akzidenz_grotesk_be_regularRg") format("svg"); font-weight: normal; font-style: normal; }
+
+div.block { font-family: 'AkzidenzGroteskBE-Regular', Arial, sans-serif; }
+div.block.block-pullquote blockquote, div.block.block-colors table thead tr th { font-family: 'AkzidenzGroteskBE-Regular', Arial, sans-serif; }
+
+header h1 { font-family: 'AkzidenzGroteskBE-MdCn', Arial, sans-serif; font-size: 76px; font-weight: normal; }
+
+div.block.block-heading h1, div.block.block-heading h2 { font-family: 'AkzidenzGroteskBE-MdCn', Arial, sans-serif; font-size: 76px; font-weight: normal; }
+
+header h1 { font-size: 54px; }
