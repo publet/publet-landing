@@ -230,7 +230,6 @@ h4.prepared{
     text-decoration: none;
 }
 
-
 /* Responsive iframes for Vimeo and YouTube embeds */
 
 .embed-container {
@@ -355,14 +354,13 @@ h4.prepared{
     *zoom: 1;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+
+@media only screen and (max-width: 768px) {
+    .img-responsive {
+        padding-right: 10%;
+        width: 90%;
+    }
 }
 
 @media print,
