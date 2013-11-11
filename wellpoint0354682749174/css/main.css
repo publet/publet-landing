@@ -171,6 +171,10 @@ ul{
 .center{
     text-align: center;
 }
+.center img{
+    text-align: center;
+    margin:0px auto;
+}
 
 .feature-box{
     margin-top: 10px;
