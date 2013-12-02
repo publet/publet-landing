@@ -150,10 +150,13 @@ a:hover {
 	text-align: center;
 }
 
+.tryit h3 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
 
-.tryit {
-	text-align:center;
-	margin-bottom: 20px;
+.tryit-form {
+	padding-bottom: 30px;
 }
 
 #main-form {
@@ -583,6 +586,10 @@ ul.nav > li.mail > a:hover {
 	margin-top: 10px;
 	}
 
+	.tryit {
+	text-align:center;
+	}
+
 	#footer-text {
 		margin-top: 40px;
 		text-align: left;
@@ -624,6 +631,10 @@ ul.nav > li.mail > a:hover {
 		border: solid #595959 1px;
 		padding: 30px 30px;
 		box-shadow: 5px 5px 5px #888888;
+	}
+
+	#signup h2 {
+		padding-left: 0px;
 	}
 
 }
