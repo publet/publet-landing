@@ -637,6 +637,10 @@ ul.nav > li.mail > a:hover {
 		padding-left: 0px;
 	}
 
+	#signup h1 {
+		padding-left:0px;
+	}
+
 }
 
 
