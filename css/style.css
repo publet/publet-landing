@@ -1,0 +1,730 @@
+/* Test CSS */
+
+body {
+	font-family: 'Muli', sans-serif, Arial, serif;
+	font-size: 16px;
+	background-color: #fff;
+	color: #87cfd5;
+}
+
+h1 {
+	font-family:'Varela Round', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-size:1.5em;
+}
+
+h2 {
+	font-family:'Varela Round', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	color: #87cfd5;
+}
+
+h3 {
+	font-family:'Varela Round', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-size: 1.3em;
+	color: #595959;
+	padding-top: 20px;
+}
+
+h4 {
+	padding-top: 20px;
+	font-family: 'Muli';
+	font-size: 1.5em;
+}
+
+h5 {
+	font-family: 'Muli';
+	color: #EF5444;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* NAVBAR 
+======================== */
+
+#grey-nav {
+	background-color: #EBEBEB;
+	border: none;
+}
+
+.navbar-nav>li>a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	color: #595959;
+	font-size: 15px;
+}
+
+.navbar-nav>li>a:hover {
+	background-color: #87cfd5;
+	color: #fff;
+	text-shadow: none;
+	font-size: 15px;
+}
+
+.navbar-nav>li>.btn-sign-up>a {
+	color: #fff;
+	font-size: 15px;
+}
+
+.navbar-nav>li>.btn-sign-up>a:hover {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+
+.navbar .navbar-fixed-top{
+	background-color: #EBEBEB;
+	color: #595959;
+	border: none;
+	
+}
+
+.navbar-brand img {
+	margin-right: 7px;
+	padding: 0px;
+}
+
+.navbar-brand {
+	color: #595959;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+	padding: 7px 15px;
+}
+
+.btn-sign-up {
+	margin-top: 7px;
+	margin-left: 10px;
+	background-color: #EF5444;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+}
+
+.btn-sign-up:hover {
+	background-color: #87cfd5;
+	color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	border-color: #fff;
+}
+
+/* Jumbotron */
+
+.big-image {
+	background-image: url('../images/main.jpg');
+	background-size: 768px;
+	min-height: 350px;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding-top: 55px;
+	padding-right: 30px;
+}
+
+.big-image h3 {
+	color: #87cfd5;
+	margin-bottom: 0px;
+}
+
+.big-image h2 {
+	font-family: 'Muli';
+}
+
+.big-image a {
+	text-align: center;
+}
+
+.tryit h3 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.tryit-form {
+	padding-bottom: 30px;
+}
+
+#main-form {
+	padding-top: 10px;
+}
+
+.main-form-signup {
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 10px 20px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#main-button {
+	text-align: center;
+}
+
+
+#learn-more {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#title-xs {
+	color: #EF5444;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#description-xs {
+	color: #EF5444;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+/* Main values */
+
+.main-content {
+	text-align: center;
+	color:#595959;
+}
+
+.main-content h4 > a {
+	color:#595959;
+}
+
+#dotted-line-above {
+	border-top: dashed;
+	border-top-width: 2px;
+	border-top-color: #595959;
+}
+
+#dotted-line-below {
+	border-bottom: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #595959;
+}
+
+.product-imgs {
+	padding: 10px 0px;
+}
+
+.spacebelow {
+	margin-bottom: 20px;
+}
+
+.spaceabove {
+	margin-top: 15px;
+}
+
+#footer {
+	background-color: #EBEBEB;
+	text-align: center;
+}
+
+#footer-logo {
+	padding: 20px 20px;
+	display: inline;
+	text-align: center;
+	height: 175px;
+}
+
+#footer-text {
+	color: #595959;
+}
+
+.footer-label {
+	font-size: 14px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+
+#footer-products {
+	text-align: left;
+}
+
+#footer-products .nav >li >a {
+	padding-top: 10px;
+	color: #595959;
+	font-size: 14px;
+}
+
+#footer-products .nav >li >a:hover {
+	background-color: #87cfd5;
+	color: #fff;
+}
+
+.footer-border {
+	border-bottom: solid 1px #595959;
+}
+
+/* social media sprite for footer */
+
+#socialmedia > ul.nav > li > a {
+	height: 33px;
+	width: 33px;
+	margin-bottom: 8px;
+}
+
+#socialmedia > ul.nav > li.facebook > a {
+	background: url('../images/social-media-sprite.png') -1px 0px;
+}
+
+#socialmedia > ul.nav > li.facebook > a:hover {
+	background: url('../images/social-media-sprite.png') -40px 0px;
+}
+
+#socialmedia > ul.nav > li.twitter > a {
+	background: url('../images/social-media-sprite.png') -1px -34px;
+}
+
+#socialmedia > ul.nav > li.twitter > a:hover {
+	background: url('../images/social-media-sprite.png') -40px -34px;
+}
+
+#socialmedia > ul.nav > li.linkedin > a {
+	background: url('../images/social-media-sprite.png') -1px -67px;
+}
+
+#socialmedia > ul.nav > li.linkedin > a:hover {
+	background: url('../images/social-media-sprite.png') -40px -67px;
+}
+
+#socialmedia > ul.nav > li.googleplus > a {
+	background: url('../images/social-media-sprite.png') -1px -100px;
+}
+
+#socialmedia > ul.nav > li.googleplus > a:hover {
+	background: url('../images/social-media-sprite.png') -40px -100px;
+}
+
+
+/* Product Page */
+
+
+.section-header{
+	text-align: center;
+	padding-bottom: 8px;
+	border-bottom: dashed 2px #595959;
+	padding-bottom: 10px;
+}
+
+.productpage .section-header h1 {
+	color: #EF5444;
+	padding-bottom:0px;
+}
+
+.section-header img {
+	height: 80px;
+	margin-right: 15px;
+}
+
+.productpage {
+	margin-top: 40px;
+	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: dashed 2px #595959;
+}
+
+.smallergap {
+	margin-top: 20px;
+}
+
+.productpage p {
+	color: #595959;
+	text-align: left;
+}
+
+.productpage img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.productpage .largeimg {
+	width: 250px;
+	padding: 30px 0px 10px 0px;
+}
+
+.productpage .smallicons img {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	height: 80px;
+}
+
+.noborder {
+	border: none;
+}
+
+.spaceleft {
+	padding-left: 10px;
+}
+
+.spacetop {
+	padding-top: 12px;
+}
+
+
+/* ABOUT */
+
+#about-container {
+	margin-top: 60px;
+	margin-bottom: 30px;
+
+}
+
+#about{
+margin-top: 40px;
+color:#595959;
+text-align: center;
+line-height: 1.1em;
+font-family: 'Muli', 'Open Sans', sans-serif, Arial;
+}
+
+#about h2{
+	margin-top: 5px;
+	font-size: 24px;
+	margin-bottom: 0px;
+	font-family:'Open Sans', sans-serif, Arial;
+	color:#EF5444;
+}
+
+#about h3{
+	font-size: 16px;
+	margin-top: 0px;
+	color:#87cfd5;
+}
+
+#about p{
+	margin-top:0px;
+	margin-bottom: 20px;
+	text-align: left;
+	padding: 0px 10px;
+	font-size: 14px;
+}
+
+#about p > a {
+	color: #428bca;
+}
+
+#about p > a:hover {
+	color: #2a6496;
+  	text-decoration: underline;
+}
+
+.about-img{
+	border: solid 1px white;	
+	border-radius: 150px;	
+}
+
+.about-img img{
+	border: solid 1px #595959;	
+	border-radius: 150px;
+	text-align: center;
+	display:inline;
+
+}
+
+/* JOBS */
+
+#jobs-container {
+	margin-top: 110px;
+	margin-bottom: 115px;
+}
+
+.jobs h2 {
+	margin-top: 50px;
+	font-size: 1.9em;
+	color: #EF5444;
+	text-align: center;
+}
+
+.jobs p {
+	font-size: 1.2em;
+	color: #595959;
+}
+
+.jobs p > a {
+	color: #428bca;
+}
+
+.jobs p > a:hover{
+	color: #2a6496;
+  	text-decoration: underline;
+}
+
+.jobs img {
+	max-height: 300px;
+	text-align: center;
+}
+
+
+
+/* CONTACT */
+
+#contact-container {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	color:#595959;
+	text-align: center;
+}
+
+#contact {
+	border-bottom: dashed 2px #595959;
+	margin-bottom: 20px;
+}
+
+#contact h2 {
+	color: #EF5444;
+	font-size: 2em;
+}
+
+#contact img {
+	display:inline;
+}
+
+
+#contact-info p {
+	text-align: left;
+	color: #595959;
+	padding: 5px 0px;
+
+}
+
+#socialmedia p {
+	padding: 5px 0px;
+}
+
+
+#contact-info > ul.nav > li > a {
+	height: 33px;
+	width: 33px;
+	margin-bottom: 8px;
+}
+
+ul.nav > li.mail > a {
+	background: url('../images/social-media-sprite.png') -1px -134px;
+}
+
+ul.nav > li.mail > a:hover {
+	background: url('../images/social-media-sprite.png') -39px -134px;
+}
+
+/* SIGN UP PAGE */
+
+#signup {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	color: #595959;
+}
+
+#signup h2 {
+	color: #EF5444;
+	font-size: 2.5em;
+	padding-bottom: 20px;
+}
+
+
+/* THANK YOU */
+
+#thankyou {
+	text-align: center;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+
+
+@media (min-width: 768px) {
+
+	.big-image {
+		background-size: 100%;
+		padding-top: 100px;
+		padding-right: 20px;
+	}
+
+	h1 {
+		font-size:1.3em;
+		margin-top: 0px;
+		padding-left: 30px;
+	}
+
+	h2 {
+		font-size:1.15em;
+		color: #fff;
+		padding-left: 30px;
+	}
+
+
+	h3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	p {
+		padding-bottom: 20px;
+	}
+
+	#main-button {
+	margin-top: 10px;
+	}
+
+	.tryit {
+	text-align:center;
+	}
+
+	#footer-text {
+		margin-top: 40px;
+		text-align: left;
+	}
+
+	#footer-logo {
+		height: 150px;
+		margin-top: 20px;
+	}
+
+	.productpage p {
+		margin-left: 20px;
+	}
+
+	.product-features {
+		padding-top: 70px;
+		padding-left: 15px;
+	}
+
+	.productpage .section-header h1 {
+		margin-top: 40px;
+	}
+
+	.section-header {
+		text-align: left;
+	}
+
+	.productpage .largeimg {
+	width: 350px;
+	margin: 10px 10px;
+	}
+
+	.jobs h2 {
+		margin-top: 100px;
+		text-align: left;
+	}
+
+	#signup {
+		border: solid #595959 1px;
+		padding: 30px 30px;
+		box-shadow: 5px 5px 5px #888888;
+	}
+
+	#signup h2 {
+		padding-left: 0px;
+	}
+
+	#signup h1 {
+		padding-left:0px;
+	}
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.big-image {
+		background-size: 100%;
+	}
+
+	h1 {
+		font-size:1.5em;
+	}
+
+	h2 {
+		font-size: 1.1em;
+		color: #fff;
+	}
+
+	p {
+		padding-bottom: 20px;
+	}
+
+	#main-button {
+	margin-bottom: 40px;
+	margin-top: 10px;
+	}
+
+
+	#footer-logo {
+		height: 175px;
+		margin-top: 0px;
+	}
+
+
+	.productpage p {
+		margin-top:10px;
+		text-align: left;
+	}
+
+	.product-features {
+		padding-top: 90px;
+		padding-left: 0px;
+	}
+
+	.productpage .largeimg {
+		margin: 0px 0px;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.big-image {
+		background-size: 100%;
+	}
+
+	h1 {
+		font-size:2em;
+	}
+	h2 {
+		font-size:1.5em;
+		color: #fff;
+		padding-right: 30px;
+		padding-bottom: 20px;
+	}
+	h3 {
+		font-size:1.5em;
+	}
+
+	h4 {
+		font-size: 1.75em;
+	}
+
+	.productpage .largeimg {
+	width: 350px;
+	}
+
+	.jobs h2 {
+		margin-left: 30px;
+	}
+
+	.jobs p {
+		margin-left: 30px;
+	}
+
+
+}

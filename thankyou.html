@@ -1,171 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>Publet</title>
-
-    <!-- CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- fonts -->
     <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Days+One">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/jumbotron.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-        <script type="text/javascript">
-    var _ss = _ss || [];
-    _ss.push(['_setDomain', 'https://koi-AK8SR8.sharpspring.com/net']);
-    _ss.push(['_setAccount', 'KOI-A5KWWC']);
-    _ss.push(['_trackPageView']);
-    (function() {
-        var ss = document.createElement('script');
-        ss.type = 'text/javascript'; ss.async = true;
-        ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-AK8SR8.sharpspring.com/client/ss.js?ver=1.1.1';
-        var scr = document.getElementsByTagName('script')[0];
-        scr.parentNode.insertBefore(ss, scr);
-    })();
-    </script>
-  </head>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
 
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+	<!-- NAVBAR -->
 
-        <a class="navbar-brand" href="index.html"><img src="img/logo-original.png" height="36px"></img>Publet</a>
-        <div class="nav-collapse collapse pull-right">
-          <ul class="nav navbar-nav ">
+  	<div class="navbar navbar-fixed-top" id="grey-nav" role="navigation">
+  		<div class="navbar-header">
+  			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+  			<a class="navbar-brand" href="index.html">
+  				<img src="images/logo.png" height="36px"></img>Publet
+  			</a>
+  		</div>
+  		<div class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li>
+            <a href="products.html">Style Guides</a>
+          </li>
+					<li>
+            <a href="products.html#InvestorMaterials">Investor Materials</a>
+          </li>
+					<li>
+            <a href="products.html#ContentMarketing">Content Marketing</a>
+          </li>
+					<li>
+            <button type="button" class="btn btn-sign-up">
+              <a href="signup.html">Start Creating</a>
+            </button>
+          </li>
+        </ul>
+  	 </div>
+   	</div>
 
-            <li>
-              <a href="styleGuides.html" class="">Style Guides</a>
-            </li>
-
-            <li>
-              <a href="whitePapers.html" class="">White Papers</a>
-            </li>
-
-            <li>
-              <a href="annualReports.html" class="">Annual Reports</a>
-            </li>
-
-            <li>
-              <a href="booksAndMags.html" class="">Books &amp Mags</a>
-            </li>
-
-            <li>
-              <a href="signup.html" class="signup">Sign up</a>
-            </li>
-          </ul>
-
-        </div><!--/.nav-collapse -->
-   
-    </div>
+    <!-- Thank you -->
 
     <div class="container">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      
-      <div class="large-image">
-      <h1>Thank you for signing up!</h1>
-      <h2>We will be in touch</h2>
-          <div class="col-lg-1 col-sm-hidden col-hidden">
+      <div class="row" id="thankyou">
+        <div class="col-sm-6 col-sm-offset-3" id="signup">
+          <h1>Thank you for signing up!</h1>
+          <h2>We will be in touch</h2>
+          <div class="share">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://publet.com" data-text="Ditch the PDF. Create business content that can reach customers everywhere. @Publet" data-size="large">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </div>
-          <div class="col-lg-10 col-sm-12 col-12">
-            <div class="share">
-              <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://publet.com" data-text="Ditch the PDF &amp; go digital with @Publet" data-size="large">Tweet</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
-            <img class="img-responsive" src="img/Annual-Report-All.png">
-            </img>
-          </div>
-          <div class="col-lg-1 col-sm-hidden col-hidden">
-          </div>          
-        
+          <img class="img-responsive" src="images/Annual-Report-All.png"></img>       
+        </div>
       </div>
-
-      <div class="body-content">
-
-        <!-- Example row of columns -->
-        
-       
-
-      </div>
-
     </div> <!-- /container -->
 
 
-    <div id="footer">
-      <div class="container">
-        <div class= "col-lg-12 col-sm-12 col-12">
 
-          <div class="col-lg-5 col-sm-5 col-12 footer-text">
-            <div class="col-lg-4 col-sm-4 col-3">            
-                <img src="img/logo-original.png" class="img-responsive"></img>
-            </div>
-            <div class="col-lg-8 col-sm-8 col-9">  
-                <p>Publet powers digital publications for everywhere the web goes</p>
-            </div>
-            <div class="sign-up-button col-lg-12 col-sm-12 col-12">    
-<a href="signup.html"><button>Start Creating</button></a>
-            </div>
+
+    <!-- FOOTER -->
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="col-md-5 col-lg-4 col-sm-6">
+            <a href="index.html"><img id="footer-logo" src="images/logo.png" height="175px"></img></a>
           </div>
-
-
-
-          <div class="col-lg-3 col-sm-3 col-12 footer-list">
-            <h2>PRODUCTS</h2>
-            <ul class="nav">
-              <li><a href="styleGuides.html">style guides</a></li>
-              <li><a href="whitePapers.html">white papers</a></li>
-              <li><a href="annualReports.html">annual reports</a></li>
-              <li><a href="booksAndMags.html">books &amp mags</a></li>
-            </ul>
+          <div class="col-md-7 col-lg-8 col-sm-6 col-xs-12" id="footer-text">Publet powers digital publications for everywhere the web goes
           </div>
+        </div>
+        <div class="col-sm-3 col-xs-6 spacebelow" id="footer-products">
+          <h5 class="footer-label">PRODUCTS</h5>
+          <ul class="nav">
+            <li class="footer-border">
+              <a href="products.html">style guides</a>
+            </li>
+            <li class="footer-border">
+              <a href="products.html#InvestorMaterials">investor materials</a>
+            </li>
+            <li class="footer-border">
+              <a href="products.html#ContentMarketing">content marketing</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3 col-xs-6 spacebelow" id="footer-products">
+          <h5 class="footer-label">COMPANY</h5>
+          <ul class="nav">
+            <li class="footer-border">
+              <a href="about.html">about</a>
+            </li>
+            <li class="footer-border">
+              <a href="contact.html">contact</a>
+            </li>
+            <li class="footer-border">
+              <a href="jobs.html">jobs</a>
+            </li>
+          </ul>
+        </div>
 
+        <!-- Social Media Footer -->
 
-          <div class="col-lg-3 col-sm-3 col-12 footer-list">
-            <h2>COMPANY</h2>
-            <ul class="nav">
-              <li><a href="about.html">about</a></li>
-              <li><a href="contact.html">contact</a></li>
-              <li><a href="jobs.html">jobs</a></li>
-            </ul> 
-          </div>
-
-
-          <div class="col-lg-1 col-sm-1 col-12 footer-social">
-            <ul class="nav">
-                <li class="facebook"><a href="https://www.facebook.com/getpublet" target="_blank"></a></li>
-                <li class="twitter" target="_blank"><a href="https://twitter.com/publet"></a></li>
-                <li class="linkedin" target="_blank"><a href="http://www.linkedin.com/company/publet"></a></li>
-                <li class="gplus" target="_blank"><a href="https://plus.google.com/u/2/102915547617912499012/about"></a></li>
-            </ul>
-          </div>
-
+        <div class="col-sm-1 col-xs-12 spaceabove spacebelow hidden-xs" id="socialmedia">
+          <ul class="nav">
+            <li class="facebook">
+              <a href="https://www.facebook.com/getpublet"></a>
+            </li>
+            <li class="twitter">
+              <a href="https://www.twitter.com/publet"></a>
+            </li>
+            <li class="linkedin">
+              <a href="http://www.linked.com/company/publet"></a>
+            </li>
+            <li class="googleplus">
+              <a href="https://plus.google.com/u/2/102915547617912499012/about"></a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div> <!-- footer -->
+      <div class="row">
+        <div class="col-xs-2 col-xs-offset-2 spacebelow hidden-sm hidden-md hidden-lg socialmedia-xs" id="socialmedia">
+          <ul class="nav">
+            <li class="facebook">
+              <a href="https://www.facebook.com/getpublet"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-2 spacebelow hidden-sm hidden-md hidden-lg socialmedia-xs" id="socialmedia">
+          <ul class="nav">
+            <li class="twitter">
+              <a href="https://www.twitter.com/publet"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-2 spacebelow hidden-sm hidden-md hidden-lg socialmedia-xs" id="socialmedia">
+          <ul class="nav">
+            <li class="linkedin">
+              <a href="http://www.linked.com/company/publet"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-2 spacebelow hidden-sm hidden-md hidden-lg socialmedia-xs" id="socialmedia">
+          <ul class="nav">
+            <li class="googleplus">
+              <a href="https://plus.google.com/u/2/102915547617912499012/about"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-  </div>
-
-    <!-- JavaScript plugins (requires jQuery) -->
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Optionally enable responsive features in IE8 -->
-    <script src="js/respond.js"></script>
-
   </body>
 </html>
+
