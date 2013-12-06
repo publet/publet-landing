@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" manifest="/appcache"> <!--<![endif]-->
+<head>
+  <title>Intel</title>
+
+  <meta name="description" content="" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  
+    <link rel="stylesheet" href="css/base.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/skeleton.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/publication.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/tomorrow.css" type="text/css" media="screen" charset="utf-8" />
+
+    <script type="text/javascript" src="js/highlight.js"></script>
+    <script type="text/javascript" src="js/popcorn.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+
+    function createVideo(video, videoUrl, autoplay) {
+      video.innerText = '';
+      video.innerHTML = '';
+
+      if (videoUrl.indexOf('youtube.com') === -1 && videoUrl.indexOf('vimeo.com') === -1) {
+            return;
+          }
+
+      if (videoUrl.indexOf('youtube') !== -1) {
+        videoUrl += '&controls=1';
+      }
+
+      var pop = Popcorn.smart(video, videoUrl);
+      pop.controls(true);
+
+      if (autoplay) {
+        pop.play();
+      }
+
+    }
+
+    window.onload = function() {
+      var videos = document.getElementsByClassName('video');
+
+      for (var i = 0; i < videos.length; i++) {
+
+        var videoUrl = videos[i].innerText;
+
+        if (videos[i].children && videos[i].children.length > 0) {
+
+          videos[i].children[0].onclick = function() {
+            var v = videos[i];
+            var url = videoUrl;
+            return function() {
+              createVideo(v, url, true);
+            };
+          }();
+
+        } else {
+          createVideo(videos[i], videoUrl);
+        }
+
+      }
+    };
+
+    //Flexslider
+    $(document).ready(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        prevText: "",
+        nextText: "",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+
+  </script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <a href="www.intel.com"><header>
+    <h1>Intel</h1>  
+  </header></a>
+
+  <div class="container">
+    <div class="table-of-contents sixteen columns">
+      <h4>Table of Contents</h4>
+      <h1>Intel</h1>
+      <ul>
+        
+        <li>
+          <a href="#x">
+          </a>
+
+        </li>
+        
+        <li>
+          <a href="#top-demos">
+            Top Demos
+          </a>
+        </li>
+        
+        <li>
+          <a href="#ultrabook">
+            Ultrabook<sup>&trade;</sup>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#intel-atom">
+           	Intel Atom<sup>&trade;</sup>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#about">
+            About
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="sep"></div>
+  <div class="container">
+        
+        <div class="block block-cover sixteen columns">
+        	<img src="images/CES-intel.jpg" alt="" />
+            <span> </span><a id="top-demos"></a>
+        </div>
+        
+        <div class="block block-heading fifteen columns offset-by-four">
+
+          	<h1>News Fact Sheet</h1>
+
+	    </div>
+
+	   	<div class="block block-heading fifteen columns offset-by-four title-intel">
+
+	          <h2>Intel Delivers New Experiences at CES 2013: Intel Booth #7252 Demo Highlights </h2>
+
+	    </div>    
+            
+        
+      
+        
+        <div class="block block-text sixteen columns offset-by-four">
+
+            <p>Jan. 8, 2013 – During the 2013 International Consumer Electronics Show (CES) in Las Vegas, Intel Corporation is showcasing several new ways people can expect to interact with and enjoy life experiences through technology starting today and into the future. On display at Intel's booth (#7252) are new ways to watch television in the home and on your mobile device, along with new digital experiences via smartphones, tablets and Ultrabooks, and new interface technologies such as touch, gesture and voice and security solutions that provide a more seamless way to protect your personal information. </p>
+            
+        </div>
+
+        <div class="block block-text sixteen columns offset-by-four">
+
+            <p>Here is a summary of some of the must-see demonstrations in the Intel booth: </p>
+            
+        </div>
+
+        <div class="block block-text sixteen columns offset-by-four">
+
+            <p class="header">Growing A Better Computing Experience: Intel Ultrabook&trade; Tree Installation</p>
+            
+        </div>
+        
+        <div class="block block-text sixteen columns offset-by-four">
+
+            <p>Central to the 2013 Intel experience at CES will be an interactive Ultrabook™ Tree installation soaring above Intel’s "park eco-system"-themed booth and representing the transformative, personal and inspiring nature of technology in our lives. Using one of eight convertible Ultrabook devices at the base of the tree from Asus, Dell, Lenovo, Panasonic, Sony and Toshiba, visitors will be able to create their animation on one of the touchscreens and then launch their design via a drag-and-release function – similar to Angry Birds* – up the chrome tree trunk. As their creation travels up the trunk, thousands of LED lights illuminate its journey before it blooms into view and ripples across the canopy of all 180 Ultrabook devices that hang like leaves on the branches of the techno-tree. For more on the tree, view the <a href="#">Ultrabook Tree Fact Sheet</a>.</p>
+            
+            
+            
+        </div>
+
+        <div class="block video block-video sixteen columns offset-by-four">
+          	<iframe src="http://player.vimeo.com/video/79107561" height="350" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>          
+        </div>
+
+	    	<div class="block block-text sixteen columns offset-by-four">
+
+	        	<p><span class="highlight">Technology Highlights:</span> Ultrabook devices, Intel&rej; Core&trade; Processor family </p>  
+	        
+	      	</div>
+
+       
+
+        <div class="block block-text sixteen columns offset-by-four">
+
+            <p class="header">Entertainment in the Palm of Your Hand</p>
+            
+        </div>
+        
+        <div class="block block-text sixteen columns offset-by-four">
+
+            <p>Smartphones with Intel Inside&reg; allow people to enjoy a complete mobile and entertainment experience in the palm of their hand. Through these demos, visitors can experience superior performance, including fast Web browsing, responsive apps, gaming and HD content viewing. For movie buffs, smartphones running on Intel can record/play 1080p video and visitors can experience how they can get rich media to on-the-go or even at home by connecting the phone through HDMI or wirelessly through Wireless Display (WiDi), available on select Intel-based smartphones.</p>
+
+        </div>
+        <div class="block block-pullquote sixteen columns offset-by-four">
+            
+              <blockquote class="alignment-column">Smartphone users want compelling 3D graphics, responsive gaming action, and smooth HD video.</blockquote>
+            
+        </div>
+
+       	<div class="block block-text sixteen columns offset-by-four">
+              
+            <p>Intel is also showcasing the new low-power Atom&trade; processor Z2420 platform and Smartphone Reference Design, targeted at the value smartphone market segment. The platform can achieve speeds of 1.2 GHz, supports 1080p hardware-accelerated encode/decode, and includes support for two cameras delivering advanced imaging capabilities, including a burst mode that allows people to capture seven pictures in less than a second in 5-megapixel quality.</p>
+            
+        </div>
+
+        <div class="block video block-video sixteen columns offset-by-four">
+         	<iframe src="http://player.vimeo.com/video/59658464" height="350" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>          
+        </div>
+
+		<div class="block block-text sixteen columns offset-by-four">
+
+	        <p><span class="highlight">Technology Highlights:</span> Smartphones with Intel Inside by Lava International*, Lenovo*, Motorola Mobility*, MegaFon*, Orange*, Intel Smartphone Reference Design based on Atom Processor Z2420, Burst Mode Imaging, HD Video, Intel Atom™ Processor Family.</p>  
+	        
+	    </div>
+
+	    <div class="block block-text sixteen columns offset-by-four">
+
+            <p class="header">The Total Tablet Experience</p>
+            
+        </div>
+        
+        <div class="block block-photo sixteen columns offset-by-four alignment-bl">
+        	<img src="images/1.jpg" />
+        	<p><span style="word-spacing: normal;">From multitasking and productivity to entertainment, tablets powered by Intel<sup>&reg;</sup> Core<sup>&trade;</sup> and Atom<sup>&trade;</sup> processors deliver great performance and graphics. Only tablets based on Intel architecture<sup>&reg;</sup>  offer the best Windows* 8 experiences and are compatible with existing applications and peripherals. Visitors can use the popular Windows Store apps such as Fruit Ninja* and Netflix* for entertainment, or use Google Chrome*, Microsoft Outlook* and a host of other software that they use on their PC, all on tablets that deliver the battery life and form factor that consumers expect.</p><a id="ultrabook"></a>
+            
+        </div>
+
+	    <div class="block block-text sixteen columns offset-by-four">
+
+	          <p><span class="highlight">Technology Highlights:</span> Intel Core and Atom powered tablets, HD Video, and Windows* 8</p>
+	        
+	      	</div>
+
+        
+      
+        
+	    <div class="block block-heading sixteen columns offset-by-four">
+	        
+	        
+	          <h2 class="title-intel">Interactive Intel Ultrabook<sup>&trade;</sup> Tree Enchants CES Visitors</h2>
+	          
+
+	        
+	    </div>
+
+	    <div class="block block-text sixteen columns offset-by-four">
+	    	<p class="header">18-Foot-Tall Interactive Touch Tree with Canopy of 176 Ultrabook Devices Celebrates the Transformative Nature of Technology</h2>
+	    </div>
+
+
+	   	<div class="block block-photo sixteen columns offset-by-four alignment-br">
+	   		<img src="images/ultrabook.jpg" />
+	   		<p><span style="word-spacing: normal;">International Consumer Electronics Show, Las Vegas, Jan. 8-11, 2013 - The interative Intel Ultrabook <sup>&trade;</sup> Touch Tree installation soaring above Intel's "digital park eco-system"-themed booth this year invites visitors to create their own convertible Ultrabook blooms. People can add their unique blooms to the camopu composition via a touchescreen-enabled app featured on one of five convertible Ultrabook devices at the base of the tree.</span></p>
+	   	</div>
+
+	   	<div class="block block-text sixteen columns offset-by-four">
+	   		<p>Visitors create their blossoms on the Ultrabook convertible’s touchscreen and then launch their unique bloom via a drag-and-release function up the trunk into the canopy. As their creation travels up the trunk, LED lights illuminate its journey before it blooms into view and ripples across the canopy of all 176 Ultrabook devices that hang like leaves on the branches of the Touch Tree.</p>
+	   	</div>
+
+	   	<div class="block block-text sixteen columns offset-by-four">
+	   		<p>The first-ever interactive Touch Tree at CES, the installation represents the transformative, personal and inspiring nature of technology in our lives. It visualizes Intel’s research into how to create personalized technology features and experiences within a collective setting and is a representation of the interconnected mobile world that we create together. The Intel Ultrabook Touch Tree illustrates how simple interactions have the ability to create richer and fuller experiences using both visual and tactile methods of communication.</p>
+	   	</div>
+
+	   	<div class="block block-text sixteen columns offset-by-four">
+	   		<p class="header">Facts:</p>
+	   	</div>
+
+	   	<div class="block block-text sixteen columns offset-by-four">
+	   		<ul class="disc" id="facts">
+	   			<li>Features 181 Ultrabook devices from Acer*, Asus*, Dell*, HP*, Lenovo*, Sony* and Toshiba* that people can buy today 
+	   			</li>
+	   			<li>Stands 18.6 feet tall
+	   			</li>
+	   			<li>About 500,000 touch gestures expected to be performed over the show's 4 days
+	   			</li>
+	   			<li>More than 200,000 blooms are expected to be launched into the canopy
+	   			</li><a id="about"></a>
+	   			<li>Powered for more than 120 hours with Ultrabook devices booting up in 7 seconds or less
+	   			</li>
+	   		</ul>
+	   	</div>
+
+	   	<div class="block block-text sixteen columns offset-by-four">
+	   		<p class="header">About Intel</p>
+	   	</div>
+
+	   	<div class="block block-text sixteen columns offset-by-four">
+	   		<p>Intel (NASDAQ: INTC) is a world leader in computing innovation. The company designs and builds the essential technologies that serve as the foundation for the world’s computing devices. Additional information about Intel is available at newsroom.intel.com and blogs.intel.com. </p>
+	   	</div>
+
+	   	<div class="block block-cover sixteen columns">
+        	<img src="images/intel.jpg" alt="" />
+            <span> </span>
+        </div>
+
+        <div class="block block-text sixteen columns offset-by-four">
+	   		<p>Intel, Intel Atom, Intel Core, Ultrabook, Thunderbolt and the Intel logo are trademarks of Intel Corporation in the United States and other countries. * Other names and brands may be claimed as the property of others.</p>
+	   	</div>
+
+
+  
+</body>
+</html>
