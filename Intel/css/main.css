@@ -111,6 +111,7 @@ body{
     padding-right: 15px;
 }
 
+
 h1{
     text-decoration: bold;
     font-size: 1.6em;
@@ -194,6 +195,15 @@ ul{
     margin-top: 10px;
 }
 
+.ex-com p {
+    font-size: 18px;
+}
+
+img.doc-types {
+    max-width: 300px;
+    padding-bottom: 30px;
+}
+
 .feature-box.center ul li {
     margin-bottom:10px;
 }
@@ -218,6 +228,7 @@ ul{
 .header-bg {
     background-color: #E9E9E4;
     border-top: 6px solid black;
+
 }
 
 .header-bg img {
@@ -225,6 +236,7 @@ ul{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    max-height: 150px;
 }
 
 .header-bg h1 {
@@ -251,12 +263,12 @@ ul{
     font-size: 24px;
 }
 
-.top img {
-    max-height: 150px;
-}
-
 .separate {
     margin-top: 20px;
+}
+
+.top img {
+    max-height: 150px;
 }
 
 .how h1 {
@@ -310,7 +322,9 @@ ul{
     margin-bottom: 0;
 }
 
-.ex-com {
+.style-guide {
+    max-height: 150px;
+    width: auto;
 
 }
 
@@ -343,6 +357,7 @@ h4.prepared{
 
 .img-assets img {
     max-width: 400px;
+    max-height: 200px;
     margin: 30px 0px;
 }
 
