@@ -194,6 +194,74 @@ a:hover {
 	margin-top: 0px;
 }
 
+/* Huff post */
+
+.huffpost {
+	padding: 20px 0;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+.huffpost h2 {
+	color: #595959;
+}
+
+.huffpost a {
+	color: #87cfd5;
+}
+
+.huffpost a:hover {
+	text-decoration: underline;
+}
+
+
+.huffpost img {
+	max-height: 100px;
+}
+
+blockquote {
+	border: none;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+blockquote:before {
+	color: #ccc;
+	content: "\0201C";
+	font-size: 3em;
+	left: 20px;
+	line-height: 0.5em;
+	position: absolute;
+	top: 0;
+}
+
+blockquote:before {
+	color: #ccc;
+	content: "\0201C";
+	font-size: 3em;
+	left: 40px;
+	line-height: 0.5em;
+	position: absolute;
+	top: 0;
+}
+
+blockquote:after {
+	color: #ccc;
+	content: "\0201D";
+	font-size: 3em;
+	line-height: 0.5em;
+	position: absolute;
+	right: 50px;
+}
+
+
+blockquote p {
+	font-size: 1em;
+	color: #595959;
+	font-weight: 400;
+}
+
 
 /* Main values */
 
@@ -641,6 +709,22 @@ ul.nav > li.mail > a:hover {
 		padding-left:0px;
 	}
 
+	blockquote p {
+		font-size: 1.25em;
+		line-height: 1.75em;
+	}
+
+	blockquote:before {
+		font-size: 4em;
+	}
+
+	blockquote:after {
+		font-size: 4em;
+		right: 60px;
+		bottom: 10px;
+
+	}
+
 }
 
 
@@ -687,6 +771,10 @@ ul.nav > li.mail > a:hover {
 
 	.productpage .largeimg {
 		margin: 0px 0px;
+	}
+
+	.huffpost {
+		text-align: left;
 	}
 
 }
