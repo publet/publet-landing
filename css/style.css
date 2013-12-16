@@ -39,6 +39,11 @@ h5 {
 	padding-top: 10px;
 }
 
+a:hover h5{
+	color: #87cfd5;
+
+}
+
 a {
 	color: #fff;
 }
@@ -182,6 +187,10 @@ a:hover {
 	padding-bottom: 5px;
 }
 
+a:hover #learn-more {
+	color: #87cfd5;
+}
+
 #title-xs {
 	color: #EF5444;
 	text-align: center;
@@ -197,44 +206,44 @@ a:hover {
 /* Huff post */
 
 .huffpost {
-	padding: 20px 0;
-	text-align: center;
+	padding: 0 0;
 	padding-bottom: 0;
-}
-
-.huffpost h2 {
-	color: #595959;
-}
-
-.huffpost a {
-	color: #87cfd5;
-}
-
-.huffpost a:hover {
-	text-decoration: underline;
+	font-family: Georgia,Century,Times,serif;
 }
 
 
 .huffpost img {
 	max-height: 100px;
+	margin-top: 20px;
+}
+
+.huffpost p {
+	color: #595959;
+	padding-bottom: 0;
+}
+
+.huffpost a {
+	color: #428bca;
+}
+
+.huffpost a:hover {
+	color: #2a6496;
+	text-decoration: underline;
+}
+
+.center-img {
+	text-align: center;
 }
 
 blockquote {
 	border: none;
 	margin-left: 40px;
 	margin-right: 40px;
-	margin-top: 10px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
 }
 
-blockquote:before {
-	color: #ccc;
-	content: "\0201C";
-	font-size: 3em;
-	left: 20px;
-	line-height: 0.5em;
-	position: absolute;
-	top: 0;
-}
 
 blockquote:before {
 	color: #ccc;
@@ -243,7 +252,7 @@ blockquote:before {
 	left: 40px;
 	line-height: 0.5em;
 	position: absolute;
-	top: 0;
+	top: 15px;
 }
 
 blockquote:after {
@@ -711,7 +720,6 @@ ul.nav > li.mail > a:hover {
 
 	blockquote p {
 		font-size: 1.25em;
-		line-height: 1.75em;
 	}
 
 	blockquote:before {
@@ -721,7 +729,7 @@ ul.nav > li.mail > a:hover {
 	blockquote:after {
 		font-size: 4em;
 		right: 60px;
-		bottom: 10px;
+		bottom: -15px;
 
 	}
 
