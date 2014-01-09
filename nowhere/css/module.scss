@@ -1,0 +1,351 @@
+/* Module.scss */
+
+// Header
+header {
+	background: $navColor;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	h1 {
+		background: $imageLogo;
+		background-position: left center;
+		color: #fff;
+		font-size: em(18px);
+		line-height: 1.5em;
+		margin: 0;
+		overflow: hidden;
+		padding: 15px 0;
+		text-indent: 110%;
+		white-space: nowrap;
+	}
+	.row {
+		margin-bottom: 0;
+	}
+	nav {
+		ul {
+			float: right;
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			display: inline-block;
+			list-style-type: none;
+			padding: 15px 0 15px 15px;
+			a {
+				color: $navFontColor;
+				font-size: em(14px);
+				font-weight: 300;
+				text-decoration: none;
+			}
+			a:hover {
+				border-bottom: 1px solid $navFontColor;
+				color: $navFontColor;
+			}
+		}
+	}
+	nav.dropdown {
+		display: none !important;
+		ul {
+			float: none;
+			text-align: center;
+		}
+	}
+	nav.dropdown.active {
+		background: darken($navColor, 12);
+		display: block !important;
+		margin: 0;
+		padding: 0.5em 0;
+		position: absolute;
+		right: 179px;
+		@media only screen and (min-width: 768px) and (max-width: 959px) { right: 155px; }
+		top: 57px;
+		li {
+			display: block;
+			padding: 0;
+			a {
+				display: block;
+				font-size: em(18px);
+				padding: 0.75em 1em;
+				text-align: right;
+			}
+			a:hover {
+				background: darken($navColor, 17);
+				border: none;
+			}
+		}
+	}
+	.nav-toggle.glyphicons {
+		display: none;
+		float: right;
+		margin-right: 55px;
+	}
+	.glyphicons:before {
+		color: $navFontColor;
+		padding: 17px 15px 16px 15px;
+	}
+	nav.dropdown + .nav-toggle.glyphicons {
+		display: block;
+	}
+	nav.dropdown.active + .glyphicons:before {
+		background: darken($navColor, 12);
+	}
+	@include breakpoint(mobile-portrait) {
+		.three.columns {
+			max-width: 60%;
+		}
+		nav {
+			display: none !important;
+			ul {
+				float: none;
+				text-align: center;
+			}
+		}
+		nav.active, nav.dropdown.active {
+			background: darken($navColor, 12);
+			display: block !important;
+			left: 0;
+			margin: 0;
+			padding: 0.5em 0;
+			position: absolute;
+			top: 57px;
+			width: 100% !important;
+			li {
+				display: block;
+				padding: 0;
+				a {
+					display: block;
+					font-size: em(18px);
+					padding: 0.75em;
+					text-align: center;
+				}
+				a:hover {
+					background: darken($navColor, 17);
+					border: none;
+				}
+			}
+		}
+		.nav-toggle.glyphicons {
+			display: block;
+		}
+		nav.active + .glyphicons:before {
+			background: darken($navColor, 12);
+		}
+	}
+}
+.share-menu { 
+	background: darken($navColor, 12);
+	display: none !important;
+	margin: 0;
+	padding: 0.5em 0;
+	position: absolute;
+	top: 57px;
+	right: 130px;
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: right;
+	}
+	li {
+		display: inline-block;
+		list-style-type: none;
+		a {
+			overflow: hidden; 
+			padding: 7px 0; 
+			text-indent: 110%;
+			white-space: nowrap;
+		}
+		a.social:before { 
+			color: $navFontColor; 
+			font-size: em(24px); 
+			line-height: 32px; 
+			text-align: center; 
+			text-indent: 0; 
+			width: 100%; 
+		}
+	}
+	@include breakpoint(tablet-portrait) {
+		right: 105px;
+	}
+	@include breakpoint(mobile-portrait) {
+		right: 0;
+		width: 100%;
+		ul {
+			text-align: center;
+		}
+	}
+}
+.share-menu.active {
+	display: block !important;
+}
+.share-toggle {
+	display: block;
+	float: right;
+	margin-right: 6px;
+}
+.share-toggle:before {
+	margin-right: 0;
+}
+.share-menu.active + .glyphicons:before {
+	background: darken($navColor, 12);
+}
+
+// Article container
+article {
+	border-top: 1px solid #e2e2e2;
+	margin-bottom: 50px;
+	padding-top: 55px;
+	@include breakpoint(mobile-portrait) {
+		margin-top: 20px;
+		padding-top: 30px;
+	}
+}
+article:first-child { 
+	border: none;
+	margin-top: 55px;
+}
+
+// Header block
+.heading {
+	margin: {
+		top: 0.75em;
+		bottom: 0.35em;
+	}
+	text-align: center;
+}
+.subheading {
+	color: #aaa;
+	font-weight: lighter;
+	margin: {
+		top: 0.5em;
+		bottom: 1.5em;
+	}
+	text-align: center;
+	text-transform: uppercase;
+}
+
+// Cover block
+.cover { 
+	top: -55px; margin-bottom: -55px; /* Eliminate margin-top of article so that cover image sits flush with header */
+	position: relative;
+	.headings {
+		position: absolute;
+		top: 35%;
+		z-index: 2;
+		width: 100%;
+		h1 {
+			color: #fff;
+			font-size: 6em;
+			margin: 0;
+			text-align: center;
+			text-shadow: 0 2px 2px rgba(0,0,0, 0.3);
+		}
+		h2 {
+			color: #fff;
+			margin-top: -0.25em;
+			text-align: center;
+			text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+			text-transform: uppercase;
+		}
+	}
+	img {
+		width: 100%;
+	}
+	@include breakpoint(mobile-portrait) {
+		.headings {
+			h1 {
+				font-size: 2em;
+			}
+			h2 {
+				font-size: 1em;
+			}
+		}
+	}
+	@include breakpoint(mobile-landscape) {
+		.headings {
+			h1 {
+				font-size: 3em;
+			}
+			h2 {
+				font-size: 1.5em;
+			}
+		}
+	}
+	@include breakpoint(tablet-portrait) {
+		.headings {
+			h1 {
+				font-size: 4.5em;
+			}
+			h2 {
+				font-size: 2em;
+			}
+		}
+	}
+}
+
+// Photo grid block
+.photo-grid-photo {
+	box-sizing: border-box;
+	padding: 10px 0;
+	img {
+		width: 100%;
+	}
+}
+
+// Purchase block
+.purchase {
+	margin-top: 2em;
+	ul {
+		margin: 2em 0 0 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			list-style-type: none;
+			margin: 0 0.25em; 
+		}
+	}
+	@include breakpoint(mobile-portrait) {
+		li {
+			font-size: 0.8em;
+		}
+	}
+}
+
+// Table of contents
+h2.toc {
+ 	text-align: center;
+ 	font-weight: lighter;
+	color: #999999;
+}
+.toc {
+ 	text-transform: uppercase;
+ }
+.toc a {
+ 	text-decoration: none;
+}
+.toc a:hover {
+	text-decoration: underline;
+}
+.toc-author {
+	text-transform: uppercase;
+	padding-left: 40px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+// Photo modals
+@import "fancybox.css";
+
+// Footer
+footer {
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255, 0)), to(rgba(255,255,255, 0.35)));
+   background-image: -webkit-linear-gradient(top, rgba(255,255,255, 0), rgba(255,255,255, 0.35)); 
+   background-image:    -moz-linear-gradient(top, rgba(255,255,255, 0), rgba(255,255,255, 0.35));
+   background-image:     -ms-linear-gradient(top, rgba(255,255,255, 0), rgba(255,255,255, 0.35));
+   background-image:      -o-linear-gradient(top, rgba(255,255,255, 0), rgba(255,255,255, 0.35));
+   bottom: 0;
+   height: 45px;
+   position: fixed;
+   width: 100%;
+   z-index: 3;
+}
