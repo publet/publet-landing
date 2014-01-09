@@ -1,0 +1,168 @@
+/* Base.scss */
+
+// Media queries
+@mixin breakpoint($point) {
+  @if $point == tablet-portrait {
+    @media only screen and (min-width: 768px) and (max-width: 959px) { @content; } 
+  }
+  @else if $point == mobile-portrait {
+    @media only screen and (max-width: 767px) { @content; }
+  }
+  @else if $point == mobile-landscape {
+    @media only screen and (min-width: 480px) and (max-width: 767px) { @content; }
+  }
+}
+
+// Em function
+@function em($target, $context: $fontSize) {
+   @return #{$target / $context}em;
+}
+
+// Mixins
+@mixin fontBody {
+	color: #555;
+	font: {
+		family: $fontBody;
+		size: $fontSize;
+		weight: 400;
+	}
+	line-height: $lineHeight;
+}
+@mixin fontHeader {
+	color: $headingColor;
+	font: {
+		family: $fontHeading;
+		weight: 700;
+	}
+	line-height: 1em;
+} 
+
+// Icons
+@import 'glyphicons.css';
+
+// Base styles
+body { 
+	background-color: $bgColor;
+	@include fontBody;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 { 
+	@include fontHeader;
+	margin: {
+		top: .5em;
+		bottom: .25em;
+	}
+}
+h1 {
+	font-size: $h1Size;
+	@include breakpoint(mobile-portrait) {
+		font-size: em(32px);
+	}
+}
+h2 {
+	font-size: $h2Size;
+	@include breakpoint(mobile-portrait) {
+		font-size: em(18px);
+	}
+}
+h3 {
+	font-size: $h3Size;
+	@include breakpoint(mobile-portrait) {
+		font-size: em(18px);
+	}
+}
+h4 {
+	font-size: $h4Size;
+	@include breakpoint(mobile-portrait) {
+		font-size: em(18px);
+	}
+}
+h5 {
+	font-size: $h5Size;
+	@include breakpoint(mobile-portrait) {
+		font-size: em(18px);
+	}
+}
+h6 {
+	font-size: $h6Size;
+	@include breakpoint(mobile-portrait) {
+		font-size: em(18px);
+	}
+}
+p {
+	margin: 1.25em 0;
+}
+a {
+	color: $color1;
+}
+a:hover {
+	color: darken($color1, 15);
+}
+a.button {
+	background-color: $color1;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 darken($color1, 10);
+	-moz-box-shadow: 0 1px 0 darken($color1, 10);
+	box-shadow: 0 1px 0 darken($color1, 10);
+	color: #fff;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	text-shadow: 0 1px 0 darken($color1, 10);
+}
+a.button:hover {
+	background-color: darken($color1, 5);
+	-webkit-box-shadow: 0 1px 0 darken($color1, 15);
+	-moz-box-shadow: 0 1px 0 darken($color1, 15);
+	box-shadow: 0 1px 0 darken($color1, 15);
+	text-shadow: 0 1px 0 darken($color1, 15);
+}
+ul {
+	margin-left: 0.75em;
+	li {
+		color: #999;
+		list-style-type: square;
+		padding: 0.25em 0;
+	}
+}
+blockquote {
+	box-sizing: border-box;
+	font-size: $blockquoteSize;
+	line-height: $lineHeight;
+	margin: 1.5em 0;
+	padding: 0 1.5em;
+	position: relative;
+	@include breakpoint(mobile-portrait) {
+		font-size: 1.5em;
+	}
+}
+blockquote:before {
+	color: #ccc;
+	content:"\0201C";
+	font-size: 3em;
+	left: 0;
+	line-height: 0.5em;
+	position: absolute;
+	top: 0;
+	@include breakpoint(mobile-portrait) {
+		font-size: 2em;
+	}
+}
+blockquote:after {
+	color: #ccc;
+	bottom: -40px;
+	content:"\0201D";
+	font-size: 3em;
+	line-height: 0.5em;
+	position: absolute;
+	right: 0;
+	@include breakpoint(mobile-portrait) {
+		font-size: 2em;
+	}
+}
+code { 
+	display: block; 
+	white-space: normal;
+}
