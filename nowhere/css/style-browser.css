@@ -594,9 +594,6 @@ a.button:hover {
     padding: 10px 30px;
     margin: 0px 20px;
     text-decoration: none; }
-  @media all and (max-width: 767px) {
-    #buttons {
-      display: none; } }
 
 hr {
   border: none;
