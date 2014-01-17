@@ -857,4 +857,55 @@ a.chapter-prev:before {
     border: 23px solid transparent;
     border-right: 20px solid #ddd;
     left: -43px; } }
-/* Device-specific styles */
+
+
+/* Wufoo CSS */
+
+.wufoo li {
+  list-style: none;
+  width: 80%;
+}
+
+#container {
+  margin-top: 15px;
+}
+
+#form1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right:0;
+}
+
+.subscribe h2{
+  text-align: center;
+  font-weight: lighter;
+  padding-top:15px;
+  background: url(nowhere_flourish.png) center bottom no-repeat;
+  padding-bottom: 1.5em;
+}
+
+.subscribe p {
+  font-size: 95%;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+form li {
+  padding: 10px 10px;
+}
+
+#move-left {
+  padding-left: 10px;
+}
+
+div.subscribe >.nine.columns {
+  max-width: 480px;
+}
+
+.subscribe-form {
+  margin-bottom: 20px;
+}
