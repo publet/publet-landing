@@ -110,6 +110,7 @@ header nav div.active:hover ul { display: none; }
 
 @media only screen and (max-width: 673px) {
     .table-of-contents { display: none !important; }
+    .financials {padding-left: 15px; padding-right: 15px;}
 }
 
 @media only screen and (max-width: 767px) {
