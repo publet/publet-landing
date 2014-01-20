@@ -76,6 +76,14 @@ header nav div.active:hover ul { display: none; }
     height: 100%;
 }
 
+.table-of-contents ul li.pdf {
+    width: 15%;
+
+}
+
+.table-of-contents ul li.pdf a {background-image: -webkit-linear-gradient(top, #C52927 50%, #871A22);}
+
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     h1 { font-size: 38px; line-height: 40px; }
 
@@ -83,7 +91,7 @@ header nav div.active:hover ul { display: none; }
     .table-of-contents ul li a { font-size: 12px !important; padding: 10px 20px 13px 20px; }
     
     .container .twelve.columns { width: 556px; }
-    .block-cover span { bottom: 200px !important; font-size: 60px !important; }
+    .block-cover span { bottom: 150px !important; font-size: 50px !important; }
     .block-photo.alignment-bl img {
         float: left;
         margin-right: 20px;
@@ -116,7 +124,7 @@ header nav div.active:hover ul { display: none; }
     .block { padding: 0 20px 0 70px !important; }
     .block-cover, .block-photo, .block-video { padding: 0 !important; width: 100% !important; }
     .block-photo p { padding: 0 20px 0 70px;}
-    .block-cover span { bottom: 500px !important; font-size: 30px !important; }
+    .block-cover span { bottom: 50px !important; font-size: 25px !important; }
     .block-pullquote blockquote { font-size: 24px !important; padding: 0 30px !important; }
     .block-pullquote blockquote:before, .block-pullquote blockquote:after { font-size: 54px; }
     .block-pullquote blockquote p { font-size: 24px !important; }
@@ -146,5 +154,7 @@ header nav div.active:hover ul { display: none; }
     .container .twelve.columns { width: 480px; } 
     .container .twelve.columns.offset-by-four { padding-left: 120px !important; }   
     .block-photo p { padding: 0; } 
+    .block-cover span { bottom: 50px !important; font-size: 25px !important; }
 }
+
 
