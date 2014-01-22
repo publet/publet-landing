@@ -1,3 +1,5 @@
+@import url(fancybox.css);
+
 div.table-of-contents { margin-top: 17px; }
 div.table-of-contents h1 { font: bold 40px serif; padding-bottom: 80px; text-align: center; text-transform: uppercase; }
 div.table-of-contents h4 { color: #363636; font: italic 12px serif; margin-bottom: 0; margin-top: 50px; text-align: center; }
