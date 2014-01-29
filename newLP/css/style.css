@@ -4,7 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif, Arial, serif;
 	font-size: 16px;
 	background-color: #fff;
-	color: #87cfd5;
+	color: #595959;
 }
 
 h1 {
@@ -16,14 +16,13 @@ h2 {
 	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1em;
 	line-height: 1.2em;
-	color: #87cfd5;
+	color: #595959;
 }
 
 h3 {
 	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1.3em;
 	color: #595959;
-	padding-top: 20px;
 }
 
 h4 {
@@ -109,6 +108,17 @@ a:hover {
 	
 }
 
+.dropdown-menu .submenu {
+	visibility: hidden;
+}
+.dropdown-menu li:hover .sub-menu {
+	visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
 .navbar-brand img {
 	margin-right: 7px;
 	padding: 0px;
@@ -147,7 +157,7 @@ a:hover {
 
 /* New navbar with dropdowns */
 
-.dropdown-duh {
+.dropdown-menu {
 	background-color: #EBEBEB;
 	padding: 0;
 	text-align: center;
@@ -353,6 +363,14 @@ blockquote p {
 	color:#595959;
 }
 
+.main-content img {
+	max-height: 175px;
+}
+
+.main-content h3 {
+	font-size: 1.25em;
+}
+
 #dotted-line-above {
 	border-top: dashed;
 	border-top-width: 2px;
@@ -533,17 +551,38 @@ a:hover div.reports {
 }
 
 .why-vals {
-	font-weight: 900;
-	padding-bottom: 0;
-	margin: 0;
-}
-
-h3.why-vals {
 	padding-bottom: 20px;
 }
 
+.why-vals li {
+	text-align: left;
+}
+
+.why-vals img {
+	margin-bottom: 30px;
+}
+
+.why-vals h3{
+	color: #333333;
+	padding-bottom: 30px;
+	margin: 0;
+}
+
+.why-vals h2 {
+	font-size: 1.2em;
+	text-align: left;
+	margin-top: 0;
+}
+
+
 .right-border {
 	border-right: none;
+}
+
+.pricing-button {
+	margin-top: 10px;
+	font-size: 15px;
+	padding: 9px 15px;
 }
 
 .pricing-box {
@@ -591,6 +630,7 @@ div.row.pricing{
 }
 
 .callus {
+	padding-bottom: 30px;
 	margin-bottom: 20px;
 }
 
@@ -606,20 +646,18 @@ div.row.pricing{
 	font-size: 1.25em;
 }
 
-div.row.faq {
-	margin-bottom: 30px;
+
+
+.faq p {
+	padding-top: 10px;
 }
 
-.faq {
-	padding-left: 50px;
-	padding-right: 50px;
-}
 
 .faq h2 {
 	font-size: 1em;
 	font-style: italic;
 	text-align: left;
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	padding-left: 0;
 }
 
@@ -660,6 +698,10 @@ a:hover .not-current {
 
 .whopage .current {
 	border-bottom: 6px #87cfd5 solid;
+}
+
+.whopage .current h1 {
+	color: #87cfd5;
 }
 
 .whopage div {
@@ -909,7 +951,7 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 }
 
 #about h3{
-	font-size: 16px;
+	font-size: 20px;
 	margin-top: 0px;
 	color:#87cfd5;
 }
@@ -1088,8 +1130,12 @@ ul.nav > li.mail > a:hover {
 		padding-bottom: 20px;
 	}
 
+	.main-content h2 {
+		margin-top: 40px;
+	}
+
 	#main-button {
-	margin-top: 10px;
+		margin-top: 10px;
 	}
 
 	.tryit {
@@ -1236,6 +1282,10 @@ ul.nav > li.mail > a:hover {
 		text-align: left;
 	}
 
+	.faq {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 
 
 
