@@ -4,7 +4,7 @@ body {
 	font-family: 'Open Sans', sans-serif, Arial, serif;
 	font-size: 16px;
 	background-color: #fff;
-	color: #87cfd5;
+	color: #595959;
 }
 
 h1 {
@@ -16,14 +16,13 @@ h2 {
 	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1em;
 	line-height: 1.2em;
-	color: #87cfd5;
+	color: #595959;
 }
 
 h3 {
 	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1.3em;
 	color: #595959;
-	padding-top: 20px;
 }
 
 h4 {
@@ -351,6 +350,14 @@ blockquote p {
 
 .main-content h4 > a {
 	color:#595959;
+}
+
+.main-content img {
+	max-height: 175px;
+}
+
+.main-content h3 {
+	font-size: 1.25em;
 }
 
 #dotted-line-above {
@@ -923,7 +930,7 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 }
 
 #about h3{
-	font-size: 16px;
+	font-size: 20px;
 	margin-top: 0px;
 	color:#87cfd5;
 }
@@ -1102,8 +1109,12 @@ ul.nav > li.mail > a:hover {
 		padding-bottom: 20px;
 	}
 
+	.main-content h2 {
+		margin-top: 40px;
+	}
+
 	#main-button {
-	margin-top: 10px;
+		margin-top: 10px;
 	}
 
 	.tryit {
