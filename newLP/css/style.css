@@ -1,26 +1,26 @@
 /* Test CSS */
 
 body {
-	font-family: 'Muli', sans-serif, Arial, serif;
+	font-family: 'Open Sans', sans-serif, Arial, serif;
 	font-size: 16px;
 	background-color: #fff;
 	color: #87cfd5;
 }
 
 h1 {
-	font-family:'Varela Round', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size:1.5em;
 }
 
 h2 {
-	font-family:'Varela Round', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1em;
 	line-height: 1.2em;
 	color: #87cfd5;
 }
 
 h3 {
-	font-family:'Varela Round', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1.3em;
 	color: #595959;
 	padding-top: 20px;
@@ -62,7 +62,7 @@ a:hover {
 
 .topbar h1 {
 	color: #fff;
-	font-size: 3em;
+	font-size: 2.75em;
 }
 
 
@@ -236,8 +236,8 @@ ul.dropdown-menu >li >a:hover {
 
 .main-form-signup {
 	margin-top: 10px;
-	font-size: 16px;
-	padding: 10px 20px;
+	font-size: 20px;
+	padding: 10px 25px;
 	margin-left: 0px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -275,12 +275,12 @@ a:hover #learn-more {
 	padding: 0 0;
 	padding-bottom: 0;
 	font-family: Georgia,Century,Times,serif;
+	text-align: center;
 }
 
 
 .huffpost img {
 	max-height: 100px;
-	margin-top: 20px;
 }
 
 .huffpost p {
@@ -295,6 +295,10 @@ a:hover #learn-more {
 .huffpost a:hover {
 	color: #2a6496;
 	text-decoration: underline;
+}
+
+.huffpost h1 {
+	margin-top: 30px;
 }
 
 .center-img {
@@ -361,8 +365,46 @@ blockquote p {
 	border-bottom-color: #595959;
 }
 
-.product-imgs {
-	padding: 10px 0px;
+.style-guides {
+	width: 160px;
+	height: 150px;
+	background-image: url('../images/billboard.png');
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+a:hover div.style-guides {
+	background-image: url('../images/billboard-blue.png');
+}
+
+.content-marketing {
+	width: 170px;
+	height: 150px;
+	background-image: url('../images/book.png');
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+a:hover div.content-marketing {
+	background-image: url('../images/book-blue.png');
+}
+
+.reports {
+	width: 150px;
+	height: 150px;
+	background-image: url('../images/reports.png');
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+a:hover div.reports {
+	background-image: url('../images/reports-blue.png');
 }
 
 .spacebelow {
@@ -463,6 +505,10 @@ blockquote p {
 	color: #595959;
 }
 
+.whypublet h5 {
+	color:#595959;
+}
+
 .whypublet h2 {
 	color:#595959;
 }
@@ -470,6 +516,7 @@ blockquote p {
 .whypublet p {
 	text-align: left;
 	padding-bottom: 0;
+	padding-top: 30px;
 }
 
 .whypublet .center-text p {
@@ -582,12 +629,16 @@ div.row.faq {
 .whopage h1 {
 	padding-top: 10px;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 0.95em;
 	padding-left: 0;
 }
 
 .whopage h2 {
 	font-size: 1em;
+	text-align: center;
+	color: #595959;
+	margin-left: 15px;
+	margin-top: 10px;
 }
 
 .whopage a h1 {
@@ -624,20 +675,15 @@ a:hover .not-current {
 	margin-left: auto;
 }
 
-.whopage h2 {
-	color: #595959;
-	text-align: center;
-}
-
 .whopage p {
 	text-align: left;
 	color: #595959;
+	padding-bottom: 20px;
 }
 
 .signup-who {
 	border: solid #595959 1px;
 	padding: 15px 15px;
-	box-shadow: 5px 5px 5px #888888;
 	text-align: center;
 }
 
@@ -681,26 +727,53 @@ a:hover .not-current {
 
 /* how it works page */
 
-.how {
-	margin-top: 20px;
+.blue {
+	background-color: #87cfd5;
 }
 
-.how p {
+.howpage {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.howpage p {
 	color: #595959;
-	padding: 20px 20px;
+}
+.howpage h2 {
+	color: #595959;
+}
+
+.how h3 {
+	color: #87cfd5;
+	margin-top: 0;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.blue h3 {
+	color: #fff;
+}
+
+.how li {
+	color: #595959;
+	text-align: left;
 }
 
 .how img {
 	margin-left: auto;
 	margin-right: auto;
 	max-height: 400px;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .data {
 	box-shadow: 5px 5px 5px #888888;
 	border: 1px #CCCCCC solid;
+}
+
+.arrow {
+	height: 150px;
 }
 
 
@@ -729,11 +802,14 @@ a:hover .not-current {
 }
 
 .productpage .section-header h1 {
-	color: #EF5444;
 	padding-bottom:0px;
 	padding-left: 10px;
 	font-size: 1em;
 	margin-top: 0;
+}
+
+.productpage h1 {
+	color: #EF5444;
 }
 
 .productpage .section-header > a >.other-products > h1 {
@@ -763,6 +839,15 @@ a:hover .not-current {
 .productpage p {
 	color: #595959;
 	text-align: left;
+}
+
+.slug{
+	color: black;
+}
+
+.productpage h2 {
+	color: #595959;
+	font-size: 1.1em;
 }
 
 .productpage img {
@@ -1025,9 +1110,14 @@ ul.nav > li.mail > a:hover {
 		margin-left: 20px;
 	}
 
+	.productpage h2 {
+		padding-top: 15px;
+		font-size: 1.5em;
+	}
+
 	.product-features {
-		padding-top: 70px;
 		padding-left: 15px;
+		padding-top: 40px;
 	}
 
 	.section-header {
@@ -1129,24 +1219,23 @@ ul.nav > li.mail > a:hover {
 	border: none;
 	}
 
-	.how p {
-		border: 2px #595959 solid;
-		border-radius: 20px;
+	.whopage h2 {
+		text-align: left;
 	}
 
-
-	.how img {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
 
 	.two {
-		margin-top: 80px;
+		margin-top: 60px;
 	}
 
 	.three {
 		margin-top: 80px;
 	}
+
+	.huffpost h1{
+		text-align: left;
+	}
+
 
 
 
@@ -1185,21 +1274,17 @@ ul.nav > li.mail > a:hover {
 
 
 	.productpage p {
-		margin-top:10px;
 		text-align: left;
 	}
 
+
 	.product-features {
-		padding-top: 90px;
+		padding-top: 50px;
 		padding-left: 0px;
 	}
 
 	.productpage .largeimg {
 		margin: 0px 0px;
-	}
-
-	.huffpost {
-		text-align: left;
 	}
 
 	.smaller-container {
@@ -1225,17 +1310,11 @@ ul.nav > li.mail > a:hover {
 		padding-top: 60px;
 	}
 
-	.how p {
-		margin-top: 60px;
+
+	.how h3 {
+		margin-top: 20px;
 	}
 
-	.two {
-		margin-top: 60px;
-	}
-
-	.three {
-		margin-top: 70px;
-	}
 
 
 
@@ -1281,11 +1360,17 @@ ul.nav > li.mail > a:hover {
 
 
 	.whopage h2 {
-		font-size: 1.5em;
+		font-size: 1.25em;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
-	.one {
-		margin-top: 50px;
+	.whopage p {
+		padding-top: 30px;
+	}
+
+	.two {
+		margin-top: 20px;
 	}
 
 
