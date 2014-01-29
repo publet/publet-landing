@@ -533,14 +533,29 @@ a:hover div.reports {
 }
 
 .why-vals {
-	font-weight: 900;
-	padding-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.why-vals li {
+	text-align: left;
+}
+
+.why-vals img {
+	margin-bottom: 30px;
+}
+
+.why-vals h3{
+	color: #333333;
+	padding-bottom: 30px;
 	margin: 0;
 }
 
-h3.why-vals {
-	padding-bottom: 20px;
+.why-vals h2 {
+	font-size: 1.2em;
+	text-align: left;
+	margin-top: 0;
 }
+
 
 .right-border {
 	border-right: none;
@@ -591,6 +606,7 @@ div.row.pricing{
 }
 
 .callus {
+	padding-bottom: 30px;
 	margin-bottom: 20px;
 }
 
@@ -606,20 +622,18 @@ div.row.pricing{
 	font-size: 1.25em;
 }
 
-div.row.faq {
-	margin-bottom: 30px;
+
+
+.faq p {
+	padding-top: 10px;
 }
 
-.faq {
-	padding-left: 50px;
-	padding-right: 50px;
-}
 
 .faq h2 {
 	font-size: 1em;
 	font-style: italic;
 	text-align: left;
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	padding-left: 0;
 }
 
@@ -1236,6 +1250,10 @@ ul.nav > li.mail > a:hover {
 		text-align: left;
 	}
 
+	.faq {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 
 
 
