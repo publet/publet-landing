@@ -108,6 +108,17 @@ a:hover {
 	
 }
 
+.dropdown-menu .submenu {
+	visibility: hidden;
+}
+.dropdown-menu li:hover .sub-menu {
+	visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
 .navbar-brand img {
 	margin-right: 7px;
 	padding: 0px;
@@ -146,7 +157,7 @@ a:hover {
 
 /* New navbar with dropdowns */
 
-.dropdown-duh {
+.dropdown-menu {
 	background-color: #EBEBEB;
 	padding: 0;
 	text-align: center;
@@ -568,6 +579,12 @@ a:hover div.reports {
 	border-right: none;
 }
 
+.pricing-button {
+	margin-top: 10px;
+	font-size: 15px;
+	padding: 9px 15px;
+}
+
 .pricing-box {
 	padding-right: 20px;
 	padding-left: 20px;
@@ -681,6 +698,10 @@ a:hover .not-current {
 
 .whopage .current {
 	border-bottom: 6px #87cfd5 solid;
+}
+
+.whopage .current h1 {
+	color: #87cfd5;
 }
 
 .whopage div {
