@@ -1,0 +1,145 @@
+/* Test CSS */
+
+body {
+	font-family: 'Arial' sans-serif;
+	font-size: 16px;
+	background-color: #fff;
+	color: #001C4E;
+	text-align: left;
+}
+
+h1 {
+	font-size:2.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/* NAVBAR 
+======================== */
+
+.navbar {
+	background-image: url('../img/navbar.png');
+	background-repeat: repeat-x;
+}
+
+.navbar-nav>li>a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.navbar-nav>li>a:hover {
+	color: #001C4E;
+	border: none;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	line-height: 20px;
+}
+
+.navbar-brand img {
+	margin-right: 7px;
+	padding: 0px;
+}
+
+.navbar-brand {
+	padding: 7px 15px;
+}
+
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	border-color: #fff;
+}
+
+
+/* Landing page content */
+
+.top {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+
+.choices {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.publications {
+	margin-top: 30px;
+}
+
+.publications h2 {
+	border-top: 5px #001C4E solid;
+	padding-top: 10px;
+	border-bottom: 2px #bbb solid;
+}
+
+
+
+
+/* Small devices (phones, tablets, 768px and up) */
+@media (min-width: 768px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	.top h3 {
+		margin-top: 40px;
+	}
+
+	.choices p {
+		padding-top: 5px;
+	}
+	
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+
+
+}
