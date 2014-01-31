@@ -4,7 +4,7 @@ body {
 	font-family: 'Arial' sans-serif;
 	font-size: 16px;
 	background-color: #fff;
-	color: #001C4E;
+	color: #282828;
 	text-align: left;
 }
 
@@ -14,23 +14,25 @@ h1 {
 
 h2 {
 	font-size: 2em;
+	color: #001C4E;
 }
 
 h3 {
 	font-size: 1.25em;
+	padding-top: 10px;
 }
 
 h4 {
-	font-size: 1.25em;
-}
-
-h5 {
-	font-size: 1.2em;
+	color: #888888;
 }
 
 img {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.rockies {
+	margin-top: 50px;
 }
 
 
@@ -39,7 +41,7 @@ img {
 ======================== */
 
 .navbar {
-	background-image: url('../img/navbar.png');
+	background-image: url('../img/navbar.jpg');
 	background-repeat: repeat-x;
 }
 
@@ -81,9 +83,14 @@ img {
 /* Landing page content */
 
 .top {
-	margin-top: 80px;
+	margin-top: 30px;
 	margin-bottom: 80px;
 	text-align: center;
+}
+
+.top p {
+	padding-top: 30px;
+	text-align: left;
 }
 
 
@@ -91,6 +98,7 @@ img {
 	margin-top: 30px;
 	margin-bottom: 10px;
 }
+
 
 .publications {
 	margin-top: 30px;
@@ -116,16 +124,15 @@ img {
 	}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 
-	.top h3 {
-		margin-top: 40px;
-	}
 
 	.choices p {
 		padding-top: 5px;
+		text-align: right;
 	}
+
 	
 
 }
@@ -133,7 +140,9 @@ img {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	
+	.rockies {
+		margin-top: 0;
+	}
 
 }
 
