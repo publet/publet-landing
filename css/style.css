@@ -655,7 +655,7 @@ div.row.pricing{
 
 .faq h2 {
 	font-size: 1em;
-	font-style: italic;
+    font-weight: bold;
 	text-align: left;
 	padding-bottom: 0;
 	padding-left: 0;
