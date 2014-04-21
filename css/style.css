@@ -942,6 +942,13 @@ line-height: 1.1em;
 font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 }
 
+#about h1{
+	margin-top: -40px;
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-family:'Open Sans', sans-serif, Arial;
+}
+
 #about h2{
 	margin-top: 5px;
 	font-size: 24px;
@@ -973,6 +980,10 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
   	text-decoration: underline;
 }
 
+#about h7{
+	margin-bottom: 30px;  /*is this doing anything??*/
+}
+
 .about-img{
 	border: solid 1px white;	
 	border-radius: 150px;	
@@ -985,6 +996,7 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 	display:inline;
 
 }
+
 
 /* JOBS */
 
