@@ -291,6 +291,16 @@ a:hover #learn-more {
 	margin-top: 0px;
 }
 
+/*Bottom sign up button on landing page*/
+
+#bottom-start-button {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px 30px 20px 30px;
+    font-size: 25px;
+}
+
+
 /* Huff post */
 
 .huffpost {
@@ -303,6 +313,8 @@ a:hover #learn-more {
 
 .huffpost img {
 	max-height: 100px;
+    float: block;
+    clear: none;
 }
 
 .huffpost p {
@@ -322,8 +334,9 @@ a:hover #learn-more {
 .huffpost h2 {
 	margin-top: 10px;
     text-align: left;
-    padding-left: 0px;
+    padding-left: 20px;
     margin-left: 0px;
+    display: inline;
 }
 
 .center-img {
@@ -1317,7 +1330,9 @@ ul.nav > li.mail > a:hover {
 		padding-right: 50px;
 	}
 
-
+    .customer {
+        padding-top: 60px;
+    }
 
 }
 
@@ -1395,7 +1410,9 @@ ul.nav > li.mail > a:hover {
 		margin-top: 20px;
 	}
 
-
+    .customer {
+        padding-top: 60px;
+    }
 
 
 }
