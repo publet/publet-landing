@@ -104,19 +104,19 @@ a:hover {
 .navbar .navbar-fixed-top{
 	background-color: #EBEBEB;
 	color: #595959;
-	border: none;
-	
+	border: none;	
 }
 
 .dropdown-menu .submenu {
 	visibility: hidden;
 }
+
 .dropdown-menu li:hover .sub-menu {
 	visibility: visible;
 }
 
 .dropdown:hover .dropdown-menu {
-	display: block;
+	<!--display: block;-->
 }
 
 .navbar-brand img {
@@ -209,11 +209,10 @@ ul.dropdown-menu >li >a:hover {
 /* Jumbotron */
 
 .big-image {
-	background-image: url('../images/main.jpg');
-	background-size: 768px;
+    background-size: 768px;
 	min-height: 350px;
 	background-repeat: no-repeat;
-	color: #fff;
+	color: #595959;
 	padding-top: 55px;
 	padding-right: 30px;
 }
@@ -229,6 +228,18 @@ ul.dropdown-menu >li >a:hover {
 
 .big-image a {
 	text-align: center;
+}
+
+.landing-image {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-left: auto;
+    max-height: 400px;
+}
+
+#landing {
+    padding-top: 90px;
 }
 
 .tryit h3 {
@@ -261,6 +272,7 @@ ul.dropdown-menu >li >a:hover {
 #learn-more {
 	text-align: center;
 	padding-bottom: 5px;
+    color: #595959;
 }
 
 a:hover #learn-more {
@@ -279,6 +291,16 @@ a:hover #learn-more {
 	margin-top: 0px;
 }
 
+/*Bottom sign up button on landing page*/
+
+#bottom-start-button {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px 30px 20px 30px;
+    font-size: 25px;
+}
+
+
 /* Huff post */
 
 .huffpost {
@@ -291,6 +313,8 @@ a:hover #learn-more {
 
 .huffpost img {
 	max-height: 100px;
+    float: block;
+    clear: none;
 }
 
 .huffpost p {
@@ -307,12 +331,17 @@ a:hover #learn-more {
 	text-decoration: underline;
 }
 
-.huffpost h1 {
-	margin-top: 30px;
+.huffpost h2 {
+	margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 0px;
+    display: inline;
 }
 
 .center-img {
 	text-align: center;
+    vertical-align: middle;
 }
 
 blockquote {
@@ -515,7 +544,7 @@ a:hover div.reports {
 }
 
 
-/* Benefits Page */
+/* OLD Benefits Page */
 
 .whypublet {
 	text-align: center;
@@ -654,7 +683,7 @@ div.row.pricing{
 
 
 .faq h2 {
-	font-size: 1em;
+	font-size: 1.2em;
     font-weight: bold;
 	text-align: left;
 	padding-bottom: 0;
@@ -667,7 +696,7 @@ div.row.pricing{
 .whopage h1 {
 	padding-top: 10px;
 	text-align: center;
-	font-size: 0.95em;
+	font-size: 2em;
 	padding-left: 0;
 }
 
@@ -747,8 +776,10 @@ a:hover .not-current {
 }
 
 .keyfeat img {
-	height: 150px;
+	height: 100px;
 	border: none;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .keyfeat {
@@ -760,7 +791,16 @@ a:hover .not-current {
 }
 
 .keyfeat h4 {
-	padding-top: 0;
+	padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.whopage .keyfeat p {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .whopage h5 {
@@ -819,7 +859,7 @@ a:hover .not-current {
 }
 
 
-/* Product Page */
+/* OLD Product Page */
 
 
 .current-product {
@@ -829,11 +869,15 @@ a:hover .not-current {
 	padding-top: 10px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+    height: 66px;
+    vertical-align: middle;
 }
 
 .other-products {
 	border-bottom: 2px #CCCCCC solid;
 	padding-top: 10px;
+    height: 66px;
+    vertical-align: middle;
 }
 
 
@@ -848,18 +892,18 @@ a:hover .not-current {
 	padding-left: 10px;
 	font-size: 1em;
 	margin-top: 0;
-}
-
-.productpage h1 {
-	color: #EF5444;
+    vertical-align: middle;
+    color: #EF5444;
 }
 
 .productpage .section-header > a >.other-products > h1 {
 	color: #595959;
+    vertical-align: middle;
 }
 
 .productpage .section-header > a:hover >.other-products > h1 {
 	color: #CCCCCC;
+    vertical-align: middle;
 }
 
 
@@ -881,6 +925,10 @@ a:hover .not-current {
 .productpage p {
 	color: #595959;
 	text-align: left;
+    display: block;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .slug{
@@ -895,18 +943,44 @@ a:hover .not-current {
 .productpage img {
 	padding-top: 5px;
 	padding-bottom: 5px;
-
 }
 
-.productpage .largeimg {
-	width: 250px;
-	padding: 30px 0px 10px 0px;
+.productpage .mediumimg {
+	width: 350px;
+	padding: 10px 30px 20px 0px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-features {
+    padding-top: 20px;
+    padding-left: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .productpage .smallicons img {
 	margin-right: 20px;
 	margin-bottom: 10px;
 	height: 80px;
+}
+
+.usesimg {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productpage .section-header.uses h1 {
+	padding-bottom:0px;
+	padding-left: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
+    vertical-align: middle;
+    color: #EF5444;
 }
 
 .noborder {
@@ -926,6 +1000,17 @@ a:hover .not-current {
 }
 
 
+/* new BENEFITS */
+
+.benefits {
+    padding-top: 20px;
+    padding-left: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* ABOUT */
 
 #about-container {
@@ -940,6 +1025,13 @@ color:#595959;
 text-align: center;
 line-height: 1.1em;
 font-family: 'Muli', 'Open Sans', sans-serif, Arial;
+}
+
+#about h1{
+	margin-top: -40px;
+	font-size: 30px;
+	margin-bottom: 40px;
+	font-family:'Open Sans', sans-serif, Arial;
 }
 
 #about h2{
@@ -973,6 +1065,10 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
   	text-decoration: underline;
 }
 
+#about h7{
+	margin-bottom: 30px;  /*is this doing anything??*/
+}
+
 .about-img{
 	border: solid 1px white;	
 	border-radius: 150px;	
@@ -985,6 +1081,7 @@ font-family: 'Muli', 'Open Sans', sans-serif, Arial;
 	display:inline;
 
 }
+
 
 /* JOBS */
 
@@ -1102,22 +1199,29 @@ ul.nav > li.mail > a:hover {
 
 @media (min-width: 768px) {
 
-	.big-image {
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+    
+    .big-image {
 		background-size: 100%;
+		padding-top: 100px;
 		padding-top: 100px;
 		padding-right: 20px;
 	}
 
 	h1 {
-		font-size:1.3em;
+		font-size:1.8em;
 		margin-top: 0px;
-		padding-left: 30px;
+		padding-left: 30px; /*removed 80 padding top*/
+        text-align: center;
 	}
 
 	h2 {
 		font-size:1.15em;
-		color: #fff;
+		color: #595959;
 		padding-left: 30px;
+        text-align: center;
 	}
 
 
@@ -1153,26 +1257,42 @@ ul.nav > li.mail > a:hover {
 	}
 
 	.productpage p {
-		margin-left: 20px;
+		margin-left: 0px;
+        display: inline-block;
 	}
 
-	.productpage h2 {
+    .productpage h2 {
 		padding-top: 15px;
 		font-size: 1.5em;
 	}
 
 	.product-features {
-		padding-left: 15px;
+		padding-left: 70px;
 		padding-top: 40px;
 	}
-
+    
+    .usesimg {
+        width: 400px;
+    }
+    
+    .features-box p {
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+    
 	.section-header {
 		text-align: left;
 	}
 
-	.productpage .largeimg {
+	.productpage .mediumimg {
 	width: 300px;
-	margin: 10px 10px;
+	margin: 10px 0px 0px 0px;
+    display: inline-block;
+	}
+    
+	.benefits {
+		padding-left: 70px;
+		padding-top: 40px;
 	}
 
 	.jobs h2 {
@@ -1287,7 +1407,9 @@ ul.nav > li.mail > a:hover {
 		padding-right: 50px;
 	}
 
-
+    .customer {
+        padding-top: 60px;
+    }
 
 }
 
@@ -1299,12 +1421,12 @@ ul.nav > li.mail > a:hover {
 	}
 
 	h1 {
-		font-size:1.5em;
+		font-size:2em; /*removed 110 padding top*/
 	}
 
 	h2 {
 		font-size: 1.1em;
-		color: #fff;
+		color: #595959;
 	}
 
 	p {
@@ -1312,7 +1434,7 @@ ul.nav > li.mail > a:hover {
 	}
 
 	#main-button {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	margin-top: 10px;
 	}
 
@@ -1325,6 +1447,7 @@ ul.nav > li.mail > a:hover {
 
 	.productpage p {
 		text-align: left;
+        display: inline-block;
 	}
 
 
@@ -1333,8 +1456,9 @@ ul.nav > li.mail > a:hover {
 		padding-left: 0px;
 	}
 
-	.productpage .largeimg {
-		margin: 0px 0px;
+	.productpage .mediumimg {
+		margin: 0px 0px 0px 0px;
+        display: inline-block;
 	}
 
 	.smaller-container {
@@ -1344,13 +1468,22 @@ ul.nav > li.mail > a:hover {
 
 
 	.productpage .section-header h1 {
-		font-size: 1.25em;
+		font-size: 1em;
 	}
 
+	.productpage. section-header.uses > h1 {
+		font-size: 2em;
+	}
+    
 	.section-header img {
 	height: 80px;
 	}
 
+	.benefits {
+		padding-top: 50px;
+		padding-left: 0px;
+	}
+    
 	.whopage h2 {
 		font-size: 1.25em;
 		padding-top: 10px;
@@ -1365,7 +1498,9 @@ ul.nav > li.mail > a:hover {
 		margin-top: 20px;
 	}
 
-
+    .customer {
+        padding-top: 60px;
+    }
 
 
 }
@@ -1377,11 +1512,11 @@ ul.nav > li.mail > a:hover {
 	}
 
 	h1 {
-		font-size:2em;
+		font-size:3em; /*removed 110 padding top*/
 	}
 	h2 {
 		font-size:1.5em;
-		color: #fff;
+		color: #595959;
 		padding-right: 30px;
 		padding-bottom: 20px;
 	}
@@ -1405,7 +1540,11 @@ ul.nav > li.mail > a:hover {
 
 
 	.productpage .section-header h1 {
-		font-size: 1.5em;
+		font-size: 1.25em;
+	}
+    
+    .productpage. section-header.uses > h1 {
+		font-size: 1.75em;
 	}
 
 
