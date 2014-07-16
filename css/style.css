@@ -233,7 +233,7 @@ ul.dropdown-menu >li >a:hover {
 .landing-image {
     margin-top: 0px;
     margin-right: auto;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     margin-left: auto;
     max-height: 400px;
 }
@@ -289,6 +289,14 @@ a:hover #learn-more {
 	color: #EF5444;
 	text-align: center;
 	margin-top: 0px;
+    padding-top: 0px;
+}
+
+#description2 {
+	color: #EF5444;
+	text-align: center;
+	margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 /*Bottom sign up button on landing page*/
@@ -1241,6 +1249,13 @@ ul.nav > li.mail > a:hover {
 	#main-button {
 		margin-top: 10px;
 	}
+    
+    #description2 {
+        color: #EF5444;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 
 	.tryit {
 	text-align:center;
@@ -1434,10 +1449,16 @@ ul.nav > li.mail > a:hover {
 	}
 
 	#main-button {
-	margin-bottom: 10px;
-	margin-top: 10px;
+	   margin-bottom: 10px;
+	   margin-top: 10px;
 	}
 
+    #description2 {
+        color: #EF5444;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
 
 	#footer-logo {
 		height: 175px;
