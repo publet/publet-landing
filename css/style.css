@@ -653,6 +653,8 @@ div.row.pricing{
 	font-size: 1.5em;
 	color: #87cfd5;
 	padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
@@ -660,6 +662,7 @@ div.row.pricing{
 .pricing h1 {
 	font-size: 1.75em;
 	padding: 0;
+    padding-left: 13px;
 }
 
 .xs-borders {
@@ -1356,9 +1359,13 @@ ul.nav > li.mail > a:hover {
 		font-size: 4em;
 	}
 
-	.pricing-box {
+	#pricing-bigbox {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .pricing-box {
 		padding:0 ;
-
 	}
 
 	.right-border {
@@ -1366,7 +1373,7 @@ ul.nav > li.mail > a:hover {
 	}
 
 	div.pricing-box {
-		height: 400px;
+		height: 600px;
 	}
 
 	div.row.pricing{
@@ -1377,6 +1384,26 @@ ul.nav > li.mail > a:hover {
 	.xs-borders {
 		border: none;
 	}
+    
+    .pricing-top {
+        height: 160px;
+    }
+    
+    .pricing-top h1 {
+        height: 55px;
+    }
+    
+    .pricing-top h2 {
+        height: 30px;
+    }
+    
+    .pricing h3 {
+        padding-left: 0px;
+    }
+    
+    #small-free-font {
+        font-size: 1.4em;
+    }
 
 	.section-header img {
 	height: 50px;
@@ -1523,6 +1550,13 @@ ul.nav > li.mail > a:hover {
         padding-top: 60px;
     }
 
+    div.pricing-box {
+		height: 550px;
+	}
+    
+    #small-free-font {
+        font-size: auto;
+    }
 
 }
 
@@ -1549,8 +1583,6 @@ ul.nav > li.mail > a:hover {
 		font-size: 1.75em;
 	}
 
-	
-
 	.jobs h2 {
 		margin-left: 30px;
 	}
@@ -1568,6 +1600,22 @@ ul.nav > li.mail > a:hover {
 		font-size: 1.75em;
 	}
 
+    .pricing-top {
+        height: auto;
+    }
+    
+    .pricing-top h1 {
+        height: 1.5em;
+    }
+    
+    .pricing-top h2 {
+        height: auto;
+        margin-top: 0px;
+    }
+    
+     div.pricing-box {
+		height: 500px;
+	}
 
 	.whopage h2 {
 		font-size: 1.25em;
