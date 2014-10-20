@@ -1,14 +1,14 @@
 /* Test CSS */
 
 body {
-	font-family: 'Open Sans', sans-serif, Arial, serif;
+	font-family: 'Lato', sans-serif, Arial, serif;
 	font-size: 16px;
 	background-color: #fff;
 	color: #595959;
 }
 
 h1 {
-	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-family:'Oxygen', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size:1.5em;
 }
 
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	font-family:'Lato', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
 	font-size: 1.3em;
 	color: #595959;
 }
@@ -237,6 +237,15 @@ ul.dropdown-menu >li >a:hover {
     margin-left: auto;
     max-height: 400px;
 }
+
+.landing-image full {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    max-height: 400px;
+}
+
 
 #landing {
     padding-top: 90px;
