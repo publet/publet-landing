@@ -146,6 +146,21 @@ a:hover {
 	color: #fff;
 }
 
+.btn-job {
+	margin-top: 7px;
+	margin-left: 10px;
+	background-color: #9FD7DB;
+	border: none;
+	color: #fff;
+	text-shadow: none;
+}
+
+.btn-job:hover {
+	background-color: #87cfd5;
+	color: #fff;
+}
+
+
 .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
