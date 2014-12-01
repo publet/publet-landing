@@ -74,10 +74,10 @@ a:hover {
 }
 
 .navbar-nav>li>a {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	line-height: 20px;
-	color: #595959;
+	color: #f7f7f7;
 	font-size: 15px;
 }
 
