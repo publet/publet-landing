@@ -726,6 +726,32 @@ div.row.pricing{
 }
 
 
+/* embed ex page */
+
+.embed {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 1.25em;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+li.item {
+    margin: 20px 0 10px 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}
+
+li.subitem {
+    margin: 0 0 4px 0;
+    font-size: 0.8em;
+}
+
+.sidebar {
+    background-color: #CCCCCC;   
+}
+
 /* who is it for? page */
 
 .whopage h1 {
