@@ -264,13 +264,14 @@ input::-moz-focus-inner {
   }
 
   .container .sixteen.columns {
-    width: 748px;
+    width: 90%;
   }
 
   /* Offsets */
 
   .container .offset-by-four {
-    padding-left: 192px;
+    padding-left: 10%;
+    padding-right: 0%;
   }
 }
 
@@ -291,8 +292,9 @@ input::-moz-focus-inner {
   .container .four.columns,
   .container .eight.columns,
   .container .sixteen.columns {
-    width: 300px;
+    width: 90%;
   }
+  .container .sixte
 
   /* Offsets */
 
@@ -318,7 +320,7 @@ input::-moz-focus-inner {
   .container .four.columns,
   .container .eight.columns,
   .container .sixteen.columns {
-    width: 420px;
+    width: 85%;
   }
 }
 
@@ -359,6 +361,11 @@ input::-moz-focus-inner {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  header h1 {
+    max-width: 40px;
+  }
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 
@@ -481,6 +488,28 @@ div.block.block-photo img {
 	 ================================================== */
 
 @import url(fancybox.css);
+
+.menu-btn-wrap {
+  left: 90.5%;
+  height: 50px;
+  margin: 0 !important;
+  position: fixed;
+  top: 1%;
+  width: 100%;
+  z-index: 52;
+}
+@media only screen and (min-width: 674px) {
+  .menu-btn-wrap {
+    display: none;
+  }
+}
+.menu-btn {
+  background: black;
+  width:35px;
+  padding:5px 7px 7px 7px;
+  color:white;
+  font-size: 24px;
+}
 
 div.table-of-contents {
   margin-top: 17px;
@@ -626,6 +655,17 @@ header h1 {
   text-indent: 100%;
   white-space: nowrap;
   width: 15%;
+}
+@media only screen and (max-width: 959px) {
+  header h1 {
+    max-width: 60px;
+    margin-left: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header h1 {
+    max-width: 40px;
+  }
 }
 
 header nav {
@@ -860,7 +900,7 @@ header nav div.active:hover ul {
   }
 
   .block {
-    padding: 0 20px 0 70px !important;
+    padding: 0 5% 0 15% !important;
   }
 
   .block-cover,

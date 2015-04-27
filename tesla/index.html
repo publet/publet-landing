@@ -8,29 +8,39 @@
   <meta name="description" content="" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="css/base.css" type="text/css" media="screen" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/base.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/pushy.css" type="text/css">
+
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
-  <header>
-    <h1>Tesla Annual Letter 2013</h1>
-    <nav>
-      <div class="active">
-        Tesla Annual Letter 2013
-        <ul>
-          <li><a href="#news">1. News</a></li>
-          <li><a href="#letter">2. Letter</a></li>
-          <li><a href="#deliveries">3. Deliveries</a></li>
-          <li><a href="#marketing">4. Marketing</a></li>
-          <li><a href="#financial">5. Financial</a></li>
-          <li><a href="">5. PDF</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <nav class="pushy pushy-left">
+    <ul>
+      <li><a href="#news">1. News</a></li>
+      <li><a href="#letter">2. Letter</a></li>
+      <li><a href="#deliveries">3. Deliveries</a></li>
+      <li><a href="#marketing">4. Marketing</a></li>
+      <li><a href="#financial">5. Financial</a></li>
+      <li><a href="">5. PDF</a></li>
+    </ul>
+  </nav>
+
+  <!-- Site Overlay -->
+  <div class="site-overlay"></div>
+
   <div class="container">
+    <div class="menu-btn-wrap">
+      <div class="menu-btn">&#9776;</div>
+    </div>
+    
+    <header>
+      <h1>Tesla Annual Letter 2013</h1>
+      <!-- Menu Button -->
+    </header>
     <div class="table-of-contents sixteen columns">
       <h4>Table of Contents</h4>
       <h1>Tesla Annual Letter 2013</h1>
@@ -46,6 +56,7 @@
   </div>
   <div class="sep"></div>
   <div class="container">
+
     <div class="block block-cover sixteen columns">
       <img src="images/cover.jpg" alt="" />
       <span>Tesla Annual Letter 2013</span><a name="letter"></a>
@@ -172,7 +183,12 @@
 
 
 <!-- JS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/pushy.min.js"></script>
+<script type="text/javascript" src="js/popcorn.js"></script>
 <script type="text/javascript">
+  // Popcorn.js video
   function createVideo(video, videoUrl, autoplay) {
     video.innerText = '';
     video.innerHTML = '';
@@ -206,10 +222,6 @@
     }
   };
 </script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script src="js/output.js"></script>
-<script type="text/javascript" src="js/popcorn.js"></script>
 
 </body>
 </html>
