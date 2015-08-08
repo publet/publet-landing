@@ -69,25 +69,27 @@ a:hover {
 ======================== */
 
 #grey-nav {
-	background-color: #EBEBEB;
 	border: none;
 }
 
 .navbar-nav>li>a {
-	padding-top: 6px;
-	padding-bottom: 6px;
-	line-height: 20px;
-	color: #f7f7f7;
+	margin: 15px 10px 10px 10px;
+	line-height: 10px;
 	font-size: 15px;
+	text-transform: uppercase;
+	color: #595959;
 }
 
-.navbar-nav>li>a:hover {
+.navbar-nav>li>a:not(#how-it-works):hover {
 	background-color: #87cfd5;
 	color: #fff;
 	text-shadow: none;
 	font-size: 15px;
 }
 
+#how-it-works:hover {
+	background: none;
+}
 
 .navbar-nav>li>.btn-sign-up>a {
 	color: #fff;
@@ -99,7 +101,6 @@ a:hover {
 	font-size: 15px;
 	text-decoration: none;
 }
-
 
 .navbar .navbar-fixed-top{
 	background-color: #EBEBEB;
@@ -130,6 +131,10 @@ a:hover {
 	font-weight: 500;
 	line-height: 20px;
 	padding: 7px 15px;
+}
+
+.btn-log-in {
+	border: 1px solid #595959;
 }
 
 .btn-sign-up {
