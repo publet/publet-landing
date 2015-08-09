@@ -1,26 +1,28 @@
 /* Test CSS */
 
-body {
-	font-family: 'Lato', sans-serif, Arial, serif;
+body, h1, h2, h3, p, a, li {
+	/*font-family: 'Lato', sans-serif, Arial, serif;*/
+	font-family: 'Source Sans Pro' !important;
+	font-weight: 200 !important;
 	font-size: 16px;
 	background-color: #fff;
 	color: #595959;
 }
 
 h1 {
-	font-family:'Oxygen', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	/*font-family:'Oxygen', 'Muli', 'Open Sans', sans-serif, Arial, serif;*/
 	font-size:1.5em;
 }
 
 h2 {
-	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	/*font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;*/
 	font-size: 1em;
 	line-height: 1.2em;
 	color: #595959;
 }
 
 h3 {
-	font-family:'Lato', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	/*font-family:'Lato', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;*/
 	font-size: 1.3em;
 	color: #595959;
 }
@@ -32,7 +34,7 @@ h4 {
 }
 
 h5 {
-	font-family: 'Muli';
+	/*font-family: 'Muli';*/
 	color: #EF5444;
 	font-size: 1.2em;
 	padding-top: 10px;
@@ -40,7 +42,6 @@ h5 {
 
 a:hover h5{
 	color: #87cfd5;
-
 }
 
 a {
@@ -128,7 +129,6 @@ a:hover {
 .navbar-brand {
 	color: #595959;
 	font-size: 18px;
-	font-weight: 500;
 	line-height: 20px;
 	padding: 7px 15px;
 }
@@ -165,7 +165,6 @@ a:hover {
 	color: #fff;
 }
 
-
 .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
@@ -198,7 +197,6 @@ ul.dropdown-menu >li >a {
 	color: #595959;
 	padding: 10px 10px;
 	text-align: center;
-
 }
 
 ul.dropdown-menu >li >a:hover {
@@ -229,7 +227,7 @@ ul.dropdown-menu >li >a:hover {
 /* Jumbotron */
 
 .big-image {
-    background-size: 768px;
+  background-size: 768px;
 	min-height: 350px;
 	background-repeat: no-repeat;
 	color: #595959;
@@ -266,9 +264,8 @@ ul.dropdown-menu >li >a:hover {
     max-height: 400px;
 }
 
-
 #landing {
-    padding-top: 90px;
+    padding-top: 40px;
 }
 
 .tryit h3 {
@@ -297,7 +294,6 @@ ul.dropdown-menu >li >a:hover {
 	text-align: center;
 }
 
-
 #learn-more {
 	text-align: center;
 	padding-bottom: 5px;
@@ -314,6 +310,10 @@ a:hover #learn-more {
 	margin-top: 50px;
 }
 
+#description {
+	font-size: 2em;
+}
+
 #description-xs {
 	color: #EF5444;
 	text-align: center;
@@ -325,7 +325,47 @@ a:hover #learn-more {
 	color: #EF5444;
 	text-align: center;
 	margin-top: 0px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.section {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.section ul {
+	padding-left: 20px;
+}
+
+.section li {
+	padding-top: 15px;
+	line-height: 1.4em;
+	font-size: 1.3em;
+	font-weight: 50;
+}
+
+.section h2 {
+	font-size: 2em;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+#laptop-video-container {
+	background-image: url('../images/laptop.png');
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 360px;
+	position: relative;
+	background-size: 100%;
+}
+
+#laptop-video-container video {
+	position: absolute;
+	z-index: 500;
+	/* top: 18px; */
+  left: 70px;
+  width: 460px;
+  height: 350px
 }
 
 /*Bottom sign up button on landing page*/
@@ -414,7 +454,6 @@ blockquote:after {
 blockquote p {
 	font-size: 1em;
 	color: #595959;
-	font-weight: 400;
 }
 
 
@@ -724,7 +763,6 @@ div.row.pricing{
 
 .faq h2 {
 	font-size: 1.2em;
-    font-weight: bold;
 	text-align: left;
 	padding-bottom: 0;
 	padding-left: 0;
@@ -1619,30 +1657,29 @@ ul.nav > li.mail > a:hover {
 	.jobs p {
 		margin-left: 30px;
 	}
-
-
+	
 	.productpage .section-header h1 {
 		font-size: 1.25em;
 	}
     
-    .productpage. section-header.uses > h1 {
+  .productpage. section-header.uses > h1 {
 		font-size: 1.75em;
 	}
 
-    .pricing-top {
-        height: auto;
-    }
-    
-    .pricing-top h1 {
-        height: 1.5em;
-    }
-    
-    .pricing-top h2 {
-        height: auto;
-        margin-top: 0px;
-    }
-    
-     div.pricing-box {
+  .pricing-top {
+    height: auto;
+  }
+  
+  .pricing-top h1 {
+    height: 1.5em;
+  }
+  
+  .pricing-top h2 {
+    height: auto;
+    margin-top: 0px;
+  }
+  
+  div.pricing-box {
 		height: 500px;
 	}
 
@@ -1660,8 +1697,4 @@ ul.nav > li.mail > a:hover {
 		margin-top: 20px;
 	}
 
-
 }
-
-
-
