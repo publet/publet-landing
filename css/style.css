@@ -377,6 +377,11 @@ a:hover #learn-more {
 	border-radius: 8px;
 }
 
+.anchor {
+	margin-top: 0;
+	padding-top: 100px;
+}
+
 #brands-header {
 	font-size: 2em;
 	margin-bottom: 50px;
