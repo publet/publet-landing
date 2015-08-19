@@ -350,10 +350,6 @@ a:hover #learn-more {
 	margin-bottom: 25px;
 }
 
-#how-it-works ul {
-	list-style-type: none;
-}
-
 #how-it-works li {
 	padding-top: 15px;
 	font-size: 1.5em;
@@ -372,6 +368,10 @@ a:hover #learn-more {
 
 #how-it-works {
 	margin-top: 0;
+}
+
+#how-works-text {
+	margin-top: 30px;
 }
 
 .vegetation {
@@ -397,7 +397,7 @@ a:hover #learn-more {
 	max-height: 100%;
 }
 
-.chosen span {
+.chosen {
 	font-weight: 500 !important;
 	border: 1px solid #87CFD5;
 	padding: 5px;
@@ -978,7 +978,8 @@ a:hover .not-current {
 	color: #fff;
 }
 
-.how li {
+li.how {
+	max-width: 85%;
 	color: #595959;
 	text-align: left;
 }
@@ -989,6 +990,10 @@ a:hover .not-current {
 	max-height: 400px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+}
+
+#how-it-works img {
+	max-height: 491px;
 }
 
 .data {
