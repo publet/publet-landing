@@ -392,16 +392,47 @@ a:hover #learn-more {
 	padding: 20px 20px 20px 20px;
 }
 
+.package-box p, li {
+	font-size: 1.2em;
+}
+
 #with-without {
 	max-width: 100%;
 	max-height: 100%;
 }
 
 .chosen {
-	font-weight: 500 !important;
-	border: 1px solid #87CFD5;
+	font-weight: 800 !important;
+	color: #EF5444 !important;
+	/*border: 1px solid #87CFD5;*/
+	/*border-radius: 8px;*/
+}
+
+#economist-img {
+  margin-left: 20px;
+}
+
+@media only screen and (min-width : 320px){
+	.logo-wrapper {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	.for-header {
+		margin-top: 30px;
+	}
+	
+	.vegetation {
+		margin-top: 0;
+	}
+}
+
+.logo {
+	max-width: 100%;
+}
+
+#how-works-text li {
 	padding: 5px;
-	border-radius: 8px;
 }
 
 .anchor {
@@ -428,7 +459,7 @@ a:hover #learn-more {
 	z-index: 500;
 	/* top: 18px; */
   left: 70px;
-  width: 460px;
+  max-width: 100%;
   height: 350px
 }
 
