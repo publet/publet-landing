@@ -412,21 +412,6 @@ a:hover #learn-more {
   margin-left: 20px;
 }
 
-@media only screen and (min-width : 320px){
-	.logo-wrapper {
-		margin-left: 15px;
-		margin-right: 15px;
-	}
-	
-	.for-header {
-		margin-top: 30px;
-	}
-	
-	.vegetation {
-		margin-top: 0;
-	}
-}
-
 .logo {
 	max-width: 100%;
 }
@@ -1372,16 +1357,44 @@ ul.nav > li.mail > a:hover {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width : 320px){
+	.logo-wrapper {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	.for-header {
+		margin-top: 30px;
+	}
+	
+	.vegetation {
+		margin-top: 0;
+	}
+}
 
+@media (max-width: 768px) {
+	.hide-small-screen {
+		display: none;
+	}
+}
+
+img.hide-big-screen {
+	max-width: 100% !important;
+}
+
+/* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
 
-.dropdown:hover .dropdown-menu {
-	display: block;
-}
+	.hide-big-screen {
+		display: none;
+	}
+	
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
     
-    .big-image {
+  .big-image {
 		background-size: 100%;
 		padding-top: 100px;
 		padding-top: 100px;
@@ -1391,17 +1404,16 @@ ul.nav > li.mail > a:hover {
 	h1 {
 		font-size:1.8em;
 		margin-top: 0px;
-		padding-left: 30px; /*removed 80 padding top*/
-        text-align: center;
+		padding-left: 30px;
+    text-align: center;
 	}
 
 	h2 {
 		font-size:1.15em;
 		color: #595959;
 		padding-left: 30px;
-        text-align: center;
+    text-align: center;
 	}
-
 
 	h3 {
 		text-align: center;
@@ -1420,15 +1432,15 @@ ul.nav > li.mail > a:hover {
 		margin-top: 10px;
 	}
     
-    #description2 {
-        color: #EF5444;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
+  #description2 {
+    color: #EF5444;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
 	.tryit {
-	text-align:center;
+		text-align:center;
 	}
 
 	#footer-text {
