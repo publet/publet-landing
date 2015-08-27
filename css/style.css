@@ -310,8 +310,23 @@ a:hover #learn-more {
 	margin-top: 50px;
 }
 
+.publet-how-header {
+	padding-top: 70px;
+}
+
+.you-statements {
+	padding-top: 8px;
+	margin: 0;
+}
+
+.you-wrapper {
+	padding-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
 #description {
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 #description-xs {
@@ -375,12 +390,15 @@ a:hover #learn-more {
 }
 
 .vegetation {
-	max-width: 20%;
-	max-height: 20%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
 	display: block;
+}
+
+#leaf {
+	max-width: 15%;
+	max-height: 15%;
 }
 
 .package-box {
@@ -1154,6 +1172,11 @@ li.how {
 	padding-left: 10px;
 }
 
+.list-good-stuff {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .spacetop {
 	padding-top: 12px;
 }
@@ -1345,6 +1368,11 @@ ul.nav > li.mail > a:hover {
 	padding-bottom: 20px;
 }
 
+#tree {
+	max-height: 40%;
+	max-width: 40%;
+}
+
 
 /* THANK YOU */
 
@@ -1365,6 +1393,7 @@ ul.nav > li.mail > a:hover {
 	
 	.for-header {
 		margin-top: 30px;
+		font-size: 1.3em;
 	}
 	
 	.vegetation {
@@ -1372,9 +1401,19 @@ ul.nav > li.mail > a:hover {
 	}
 }
 
+@media (max-width: 1200px) {
+	.you-statements {
+		font-size: 1.3em;
+	}
+}
+
 @media (max-width: 768px) {
 	.hide-small-screen {
 		display: none;
+	}
+	
+	h2.for-header {
+		font-size: 1.3em;
 	}
 }
 
