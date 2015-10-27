@@ -185,19 +185,12 @@ a.left.carousel-control{
 	border-bottom:none;
 }
 
-
-
-.text-box{
-
+.text-box h2{
+	font-family:'Varela Round', 'Days One', 'Open Sans', 'Muli', sans-serif, Arial, serif;
+	font-size: 2.7em;
+	color:#87cfd5;
+	font-weight: 400;
 }
-
-
-	.text-box h2{
-		font-family:'Varela Round', 'Days One', 'Open Sans', 'Muli', sans-serif, Arial, serif;
-		font-size: 2.7em;
-		color:#87cfd5;
-		font-weight: 400;
-	}
 
 .img-box{
 	text-align:center;

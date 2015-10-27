@@ -126,6 +126,10 @@ a:hover {
 	padding: 0px;
 }
 
+#mobile-menu {
+	width: 30px;
+}
+
 .navbar-brand {
 	color: #595959;
 	font-size: 18px;
@@ -173,6 +177,39 @@ a:hover {
 	border-color: #fff;
 }
 
+#test-it-button {
+	max-width: 400px;
+	margin: 30px auto 0 auto;
+}
+
+.customers-div {
+	padding-top: 50px;
+}
+
+.sample-thumbnail {
+	width: 65%;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+#all-devices {
+	width: 100%;
+}
+
+button.navbar-toggle {
+	margin-right: 0 !important;
+}
+
+
+div.how-makes-better {
+	margin-left: 45px !important;
+	margin-right: 45px !important;
+}
+
+.how-makes-better .how-makes-better-section {
+	padding-left: 40px;
+	padding-right: 40px;
+}
 
 /* New navbar with dropdowns */
 
@@ -426,8 +463,10 @@ a:hover #learn-more {
 	/*border-radius: 8px;*/
 }
 
-#economist-img {
-  margin-left: 20px;
+img.how-icons-img {
+	width: 150px;
+	margin: 15px auto 25px auto;
+	display: block;
 }
 
 .logo {
@@ -1390,6 +1429,12 @@ ul.nav > li.mail > a:hover {
 		margin-left: 15px;
 		margin-right: 15px;
 	}
+
+	.logo-wrapper img {
+		width: 120px;
+		margin: 20px auto 20px auto;
+		display: block;
+	}
 	
 	.for-header {
 		margin-top: 30px;
@@ -1414,6 +1459,9 @@ ul.nav > li.mail > a:hover {
 	
 	h2.for-header {
 		font-size: 1.3em;
+	}
+	h2 {
+		font-size: 1.5em;
 	}
 }
 
@@ -1448,7 +1496,7 @@ img.hide-big-screen {
 	}
 
 	h2 {
-		font-size:1.15em;
+		font-size:2em;
 		color: #595959;
 		padding-left: 30px;
     text-align: center;
@@ -1685,7 +1733,7 @@ img.hide-big-screen {
 	}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 2em;
 		color: #595959;
 	}
 
@@ -1788,7 +1836,7 @@ img.hide-big-screen {
 		font-size:3em; /*removed 110 padding top*/
 	}
 	h2 {
-		font-size:1.5em;
+		font-size: 2em;
 		color: #595959;
 		padding-right: 30px;
 		padding-bottom: 20px;
