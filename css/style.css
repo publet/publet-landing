@@ -186,6 +186,10 @@ a:hover {
 	padding-top: 50px;
 }
 
+.how-works-paragraph {
+	padding-bottom: 20px;
+}
+
 .sample-thumbnail {
 	width: 65%;
 	margin: 0 auto 0 auto;
@@ -345,10 +349,6 @@ a:hover #learn-more {
 	color: #EF5444;
 	text-align: center;
 	margin-top: 50px;
-}
-
-.publet-how-header {
-	padding-top: 70px;
 }
 
 .you-statements {
@@ -1726,6 +1726,12 @@ img.hide-big-screen {
 @media (min-width: 992px) {
 	.big-image {
 		background-size: 100%;
+	}
+	
+	.how-works-paragraph {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	h1 {
