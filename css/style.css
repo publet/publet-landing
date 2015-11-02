@@ -71,6 +71,8 @@ a:hover {
 
 #grey-nav {
 	border: none;
+	margin-left: 15px;
+	margin-right: -15px;
 }
 
 .navbar-nav>li>a {
@@ -95,6 +97,17 @@ a:hover {
 .navbar-nav>li>.btn-sign-up>a {
 	color: #fff;
 	font-size: 15px;
+}
+
+.landing-text {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 35px;
+}
+
+.top-section {
+	margin-top: 30px;
 }
 
 .navbar-nav>li>.btn-sign-up>a:hover {
@@ -177,13 +190,8 @@ a:hover {
 	border-color: #fff;
 }
 
-#test-it-button {
-	max-width: 400px;
-	margin: 30px auto 0 auto;
-}
-
 .customers-div {
-	padding-top: 50px;
+	padding-top: 95px;
 }
 
 .sample-thumbnail {
@@ -204,6 +212,7 @@ button.navbar-toggle {
 div.how-makes-better {
 	margin-left: 45px !important;
 	margin-right: 45px !important;
+	margin-bottom: 50px;
 }
 
 .how-makes-better .how-makes-better-section {
@@ -302,7 +311,8 @@ ul.dropdown-menu >li >a:hover {
 }
 
 #landing {
-    padding-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 
 .tryit h3 {
@@ -364,6 +374,22 @@ a:hover #learn-more {
 
 #description {
 	font-size: 1.2em;
+}
+
+#description1 {
+	margin-top: 25px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #E6E6E6;
+}
+
+.email-submit-wrapper {
+	max-width: 400px;
+	margin: 0 auto 0 auto;
+}
+
+.email-submit-button {
+	background-color: #9FD7DA;
 }
 
 #description-xs {
@@ -471,6 +497,12 @@ img.how-icons-img {
 
 .logo {
 	max-width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.ogilvy-logo {
+	padding-top: 35px;
 }
 
 #how-works-text li {
@@ -479,7 +511,7 @@ img.how-icons-img {
 
 .anchor {
 	margin-top: 0;
-	padding-top: 100px;
+	padding-top: 40px;
 }
 
 #brands-header {
@@ -1426,8 +1458,7 @@ ul.nav > li.mail > a:hover {
 
 @media only screen and (min-width : 320px){
 	.logo-wrapper {
-		margin-left: 15px;
-		margin-right: 15px;
+		background-color: #E6E6E6;
 	}
 
 	.logo-wrapper img {
@@ -1467,6 +1498,11 @@ ul.nav > li.mail > a:hover {
 
 img.hide-big-screen {
 	max-width: 100% !important;
+	margin: auto 50px auto 50px;
+}
+
+.how-makes-better-section {
+	padding-top: 20px;
 }
 
 /* Small devices (tablets, 768px and up) */
