@@ -6,19 +6,31 @@ $(document).ready(function() {
   $(window).on('resize', function() {
     adjustLeafBox();
   });
+  nextStep();
 });
 
 var hows = $('.how');
+var i = 0;
+function nextStep() {
+  changeStep(hows[i]);
+  i = (i + 1) % hows.length;
+}
+var intervalFunc = window.setInterval(nextStep, 2000);
+
+function changeStep(element) {
+  hows.removeClass("chosen");
+  $(element).addClass("chosen");
+  var num = $(element).attr("data-num");
+  var image = $('img.how-' + num);
+  $('#how-it-works img').hide();
+  image.show();
+}
 
 function attachHowToEvents() {
   $.each(hows, function() {
     $(this).on('click', function() {
-      hows.removeClass('chosen');
-      $(this).addClass('chosen');
-      var num = $(this).attr("data-num");
-      var image = $('img.how-' + num);
-      $('#how-it-works img').hide();
-      image.show();
+      clearInterval(intervalFunc);
+      changeStep(this);
     })
   });
 }

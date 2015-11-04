@@ -191,7 +191,15 @@ a:hover {
 }
 
 .customers-div {
-	padding-top: 95px;
+	padding-top: 5px;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+}
+
+.customers-div-wrapper {
+	width: 100%;
 }
 
 .sample-thumbnail {
@@ -216,8 +224,13 @@ div.how-makes-better {
 }
 
 .how-makes-better .how-makes-better-section {
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.how-makes-better-section > p {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /* New navbar with dropdowns */
@@ -429,9 +442,9 @@ a:hover #learn-more {
 }
 
 #how-it-works li {
-	padding-top: 15px;
 	font-size: 1.5em;
 	line-height: 1.6em;
+	width: 100%;
 }
 
 #how-it-works li:hover {
@@ -491,8 +504,13 @@ a:hover #learn-more {
 
 img.how-icons-img {
 	width: 150px;
-	margin: 15px auto 25px auto;
+	height: auto;
+	margin: 30px auto 25px auto;
 	display: block;
+}
+
+.how-icons-img-wrapper {
+	height: 200px;
 }
 
 .logo {
@@ -506,7 +524,17 @@ img.how-icons-img {
 }
 
 #how-works-text li {
-	padding: 5px;
+	padding: 5px 20px 20px 0;
+	height: 101px;
+}
+
+.bottom-text {
+	background-color: #E6E6E6;
+	padding-bottom: 15px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 35px;
 }
 
 .anchor {
@@ -1084,7 +1112,6 @@ a:hover .not-current {
 }
 
 li.how {
-	max-width: 85%;
 	color: #595959;
 	text-align: left;
 }
@@ -1503,6 +1530,12 @@ img.hide-big-screen {
 
 .how-makes-better-section {
 	padding-top: 20px;
+}
+
+.upper-header {
+	padding-bottom: 20px;
+	font-weight: bold;
+	
 }
 
 /* Small devices (tablets, 768px and up) */
