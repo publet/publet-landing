@@ -1,26 +1,28 @@
 /* Test CSS */
 
-body {
-	font-family: 'Lato', sans-serif, Arial, serif;
+body, h1, h2, h3, p, a, li, h5 {
+	/*font-family: 'Lato', sans-serif, Arial, serif;*/
+	font-family: 'Source Sans Pro' !important;
+	font-weight: 200 !important;
 	font-size: 16px;
 	background-color: #fff;
 	color: #595959;
 }
 
 h1 {
-	font-family:'Oxygen', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	/*font-family:'Oxygen', 'Muli', 'Open Sans', sans-serif, Arial, serif;*/
 	font-size:1.5em;
 }
 
 h2 {
-	font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	/*font-family:'Muli', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;*/
 	font-size: 1em;
 	line-height: 1.2em;
 	color: #595959;
 }
 
 h3 {
-	font-family:'Lato', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;
+	/*font-family:'Lato', 'Days One', 'Muli', 'Open Sans', sans-serif, Arial, serif;*/
 	font-size: 1.3em;
 	color: #595959;
 }
@@ -32,7 +34,7 @@ h4 {
 }
 
 h5 {
-	font-family: 'Muli';
+	/*font-family: 'Muli';*/
 	color: #EF5444;
 	font-size: 1.2em;
 	padding-top: 10px;
@@ -40,7 +42,6 @@ h5 {
 
 a:hover h5{
 	color: #87cfd5;
-
 }
 
 a {
@@ -69,29 +70,44 @@ a:hover {
 ======================== */
 
 #grey-nav {
-	background-color: #EBEBEB;
 	border: none;
+	margin-left: 15px;
+	margin-right: -15px;
 }
 
 .navbar-nav>li>a {
-	padding-top: 6px;
-	padding-bottom: 6px;
-	line-height: 20px;
-	color: #f7f7f7;
+	margin: 15px 10px 10px 10px;
+	line-height: 10px;
 	font-size: 15px;
+	text-transform: uppercase;
+	color: #595959;
 }
 
-.navbar-nav>li>a:hover {
+.navbar-nav>li>a:not(#how-it-works-nav):hover {
 	background-color: #87cfd5;
 	color: #fff;
 	text-shadow: none;
 	font-size: 15px;
 }
 
+#how-it-works-nav:hover {
+	background: none;
+}
 
 .navbar-nav>li>.btn-sign-up>a {
 	color: #fff;
 	font-size: 15px;
+}
+
+.landing-text {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 35px;
+}
+
+.top-section {
+	margin-top: 30px;
 }
 
 .navbar-nav>li>.btn-sign-up>a:hover {
@@ -99,7 +115,6 @@ a:hover {
 	font-size: 15px;
 	text-decoration: none;
 }
-
 
 .navbar .navbar-fixed-top{
 	background-color: #EBEBEB;
@@ -124,12 +139,19 @@ a:hover {
 	padding: 0px;
 }
 
+#mobile-menu {
+	width: 30px;
+}
+
 .navbar-brand {
 	color: #595959;
 	font-size: 18px;
-	font-weight: 500;
 	line-height: 20px;
 	padding: 7px 15px;
+}
+
+.btn-log-in {
+	border: 1px solid #595959;
 }
 
 .btn-sign-up {
@@ -160,7 +182,6 @@ a:hover {
 	color: #fff;
 }
 
-
 .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
@@ -169,6 +190,48 @@ a:hover {
 	border-color: #fff;
 }
 
+.customers-div {
+	padding-top: 5px;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+}
+
+.customers-div-wrapper {
+	width: 100%;
+}
+
+.sample-thumbnail {
+	width: 65%;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+#all-devices {
+	width: 100%;
+}
+
+button.navbar-toggle {
+	margin-right: 0 !important;
+}
+
+
+div.how-makes-better {
+	margin-left: 45px !important;
+	margin-right: 45px !important;
+	margin-bottom: 50px;
+}
+
+.how-makes-better .how-makes-better-section {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.how-makes-better-section > p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 /* New navbar with dropdowns */
 
@@ -193,7 +256,6 @@ ul.dropdown-menu >li >a {
 	color: #595959;
 	padding: 10px 10px;
 	text-align: center;
-
 }
 
 ul.dropdown-menu >li >a:hover {
@@ -224,7 +286,7 @@ ul.dropdown-menu >li >a:hover {
 /* Jumbotron */
 
 .big-image {
-    background-size: 768px;
+  background-size: 768px;
 	min-height: 350px;
 	background-repeat: no-repeat;
 	color: #595959;
@@ -261,9 +323,9 @@ ul.dropdown-menu >li >a:hover {
     max-height: 400px;
 }
 
-
 #landing {
-    padding-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 
 .tryit h3 {
@@ -292,7 +354,6 @@ ul.dropdown-menu >li >a:hover {
 	text-align: center;
 }
 
-
 #learn-more {
 	text-align: center;
 	padding-bottom: 5px;
@@ -309,6 +370,41 @@ a:hover #learn-more {
 	margin-top: 50px;
 }
 
+.publet-how-header {
+	padding-top: 90px;
+}
+
+.you-statements {
+	padding-top: 8px;
+	margin: 0;
+}
+
+.you-wrapper {
+	padding-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+#description {
+	font-size: 1.2em;
+}
+
+#description1 {
+	margin-top: 25px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #E6E6E6;
+}
+
+.email-submit-wrapper {
+	max-width: 400px;
+	margin: 0 auto 0 auto;
+}
+
+.email-submit-button {
+	background-color: #9FD7DA;
+}
+
 #description-xs {
 	color: #EF5444;
 	text-align: center;
@@ -320,7 +416,153 @@ a:hover #learn-more {
 	color: #EF5444;
 	text-align: center;
 	margin-top: 0px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.section, #how-it-works {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.section ul {
+	padding-left: 20px;
+}
+
+.section li {
+	padding-top: 15px;
+	line-height: 1.4em;
+	font-size: 1.3em;
+	font-weight: 50;
+}
+
+.section h2, #how-it-works h2 {
+	font-size: 2em;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+#how-it-works li {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	width: 100%;
+}
+
+#how-it-works li:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+
+#how-it-works img {
+	max-width:100%;
+	max-height:100%;
+}
+
+#how-it-works {
+	margin-top: 0;
+}
+
+#how-works-text {
+	margin-top: 30px;
+}
+
+.vegetation {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	display: block;
+}
+
+#leaf {
+	max-width: 15%;
+	max-height: 15%;
+}
+
+.package-box {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #595959;
+	border-radius: 8px;
+	padding: 20px 20px 20px 20px;
+}
+
+.package-box p, li {
+	font-size: 1.2em;
+}
+
+#with-without {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.chosen {
+	font-weight: 800 !important;
+	color: #EF5444 !important;
+	/*border: 1px solid #87CFD5;*/
+	/*border-radius: 8px;*/
+}
+
+img.how-icons-img {
+	width: 150px;
+	height: auto;
+	margin: 30px auto 25px auto;
+	display: block;
+}
+
+.how-icons-img-wrapper {
+	height: 200px;
+}
+
+.logo {
+	max-width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.ogilvy-logo {
+	padding-top: 35px;
+}
+
+#how-works-text li {
+	padding: 5px 20px 20px 0;
+	height: 101px;
+}
+
+.bottom-text {
+	background-color: #E6E6E6;
+	padding-bottom: 15px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 35px;
+}
+
+.anchor {
+	margin-top: 0;
+	padding-top: 40px;
+}
+
+#brands-header {
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+#laptop-video-container {
+	background-image: url('../images/laptop.png');
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 360px;
+	position: relative;
+	background-size: 100%;
+}
+
+#laptop-video-container video {
+	position: absolute;
+	z-index: 500;
+	/* top: 18px; */
+  left: 70px;
+  max-width: 100%;
+  height: 350px
 }
 
 /*Bottom sign up button on landing page*/
@@ -409,7 +651,6 @@ blockquote:after {
 blockquote p {
 	font-size: 1em;
 	color: #595959;
-	font-weight: 400;
 }
 
 
@@ -719,7 +960,6 @@ div.row.pricing{
 
 .faq h2 {
 	font-size: 1.2em;
-    font-weight: bold;
 	text-align: left;
 	padding-bottom: 0;
 	padding-left: 0;
@@ -871,7 +1111,7 @@ a:hover .not-current {
 	color: #fff;
 }
 
-.how li {
+li.how {
 	color: #595959;
 	text-align: left;
 }
@@ -882,6 +1122,10 @@ a:hover .not-current {
 	max-height: 400px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+}
+
+#how-it-works img {
+	max-height: 491px;
 }
 
 .data {
@@ -1024,6 +1268,11 @@ a:hover .not-current {
 
 .spaceleft {
 	padding-left: 10px;
+}
+
+.list-good-stuff {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .spacetop {
@@ -1217,6 +1466,11 @@ ul.nav > li.mail > a:hover {
 	padding-bottom: 20px;
 }
 
+#tree {
+	max-height: 40%;
+	max-width: 40%;
+}
+
 
 /* THANK YOU */
 
@@ -1229,16 +1483,74 @@ ul.nav > li.mail > a:hover {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width : 320px){
+	.logo-wrapper {
+		background-color: #E6E6E6;
+	}
 
+	.logo-wrapper img {
+		width: 120px;
+		margin: 20px auto 20px auto;
+		display: block;
+	}
+	
+	.for-header {
+		margin-top: 30px;
+		font-size: 1.3em;
+	}
+	
+	.vegetation {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	.you-statements {
+		font-size: 1.3em;
+	}
+}
+
+@media (max-width: 768px) {
+	.hide-small-screen {
+		display: none;
+	}
+	
+	h2.for-header {
+		font-size: 1.3em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+}
+
+img.hide-big-screen {
+	max-width: 100% !important;
+	margin: auto 50px auto 50px;
+}
+
+.how-makes-better-section {
+	padding-top: 20px;
+}
+
+.upper-header {
+	padding-bottom: 20px;
+	font-weight: bold;
+	
+}
+
+/* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
 
-.dropdown:hover .dropdown-menu {
-	display: block;
-}
+	.hide-big-screen {
+		display: none;
+	}
+	
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
     
-    .big-image {
+  .big-image {
 		background-size: 100%;
 		padding-top: 100px;
 		padding-top: 100px;
@@ -1248,17 +1560,16 @@ ul.nav > li.mail > a:hover {
 	h1 {
 		font-size:1.8em;
 		margin-top: 0px;
-		padding-left: 30px; /*removed 80 padding top*/
-        text-align: center;
+		padding-left: 30px;
+    text-align: center;
 	}
 
 	h2 {
-		font-size:1.15em;
+		font-size:2em;
 		color: #595959;
 		padding-left: 30px;
-        text-align: center;
+    text-align: center;
 	}
-
 
 	h3 {
 		text-align: center;
@@ -1277,15 +1588,15 @@ ul.nav > li.mail > a:hover {
 		margin-top: 10px;
 	}
     
-    #description2 {
-        color: #EF5444;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
+  #description2 {
+    color: #EF5444;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
 	.tryit {
-	text-align:center;
+		text-align:center;
 	}
 
 	#footer-text {
@@ -1491,7 +1802,7 @@ ul.nav > li.mail > a:hover {
 	}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 2em;
 		color: #595959;
 	}
 
@@ -1594,7 +1905,7 @@ ul.nav > li.mail > a:hover {
 		font-size:3em; /*removed 110 padding top*/
 	}
 	h2 {
-		font-size:1.5em;
+		font-size: 2em;
 		color: #595959;
 		padding-right: 30px;
 		padding-bottom: 20px;
@@ -1614,30 +1925,29 @@ ul.nav > li.mail > a:hover {
 	.jobs p {
 		margin-left: 30px;
 	}
-
-
+	
 	.productpage .section-header h1 {
 		font-size: 1.25em;
 	}
     
-    .productpage. section-header.uses > h1 {
+  .productpage. section-header.uses > h1 {
 		font-size: 1.75em;
 	}
 
-    .pricing-top {
-        height: auto;
-    }
-    
-    .pricing-top h1 {
-        height: 1.5em;
-    }
-    
-    .pricing-top h2 {
-        height: auto;
-        margin-top: 0px;
-    }
-    
-     div.pricing-box {
+  .pricing-top {
+    height: auto;
+  }
+  
+  .pricing-top h1 {
+    height: 1.5em;
+  }
+  
+  .pricing-top h2 {
+    height: auto;
+    margin-top: 0px;
+  }
+  
+  div.pricing-box {
 		height: 500px;
 	}
 
@@ -1655,8 +1965,4 @@ ul.nav > li.mail > a:hover {
 		margin-top: 20px;
 	}
 
-
 }
-
-
-
