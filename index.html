@@ -57,7 +57,7 @@
               <div class="upper-header">No more PDFs.</div>
                 Make B2B content that works like a webpage.
             </h1>
-            <div class="input-group email-submit-wrapper">
+            <form class="input-group email-submit-wrapper" onsubmit="formSubmit(event);return false">
               <input id="email-field" type="text" class="form-control" placeholder="Enter your email...">
               <span class="input-group-btn">
                 <button id="test-it-button" class="btn email-submit-button" type="button">Test it out </button>
@@ -248,12 +248,13 @@
           <h3 class="bottom-text"><b>Get started now</b><br>
           Add your work email here (we'll never share it). We'll set up your account pronto.
         </h3>
-        <div class="input-group email-submit-wrapper">
+        <form class="input-group email-submit-wrapper" onsubmit="formSubmit(event);return false">
           <input type="text" class="form-control" placeholder="Enter your email...">
           <span class="input-group-btn">
-            <button class="btn email-submit-button" type="button">Test it out ></button>
+            <button class="btn email-submit-button" type="submit">Test it out ></button>
           </span>
-        </div>
+        </form>
+
       </div>
     </div>
         

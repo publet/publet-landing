@@ -7,31 +7,24 @@ $(document).ready(function() {
     adjustLeafBox();
   });
   nextStep();
-
-  // email submission
-
-  $('#test-it-button').click(function() {
-    var email = $('#email-field').val();
-    console.log(email);
-
-    if (email === '') {
-      return false;
-    }
-
-    $.ajax({
-      url: 'https://beta.publet.com/email',
-      method: 'post',
-      data: {
-        email: email
-      },
-      success: function() {
-        window.location = '/thankyou.html';
-      }
-    });
-
-    return false;
-  });
 });
+
+function formSubmit(event) {
+  var email = event.target.elements[0].value
+  if (email === '') {
+    return false;
+  }
+  $.ajax({
+    url: 'https://beta.publet.com/email',
+    method: 'post',
+    data: {
+      email: email
+    },
+    success: function() {
+      window.location = '/thankyou.html';
+    }
+  });
+}
 
 var hows = $('.how');
 var i = 0;
