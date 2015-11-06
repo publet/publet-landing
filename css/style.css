@@ -1,0 +1,1481 @@
+h2,
+h3 {
+    color: #595959
+}
+.dropdown-menu,
+ul.nav.navbar-nav.dropdown>li {
+    min-width: 118px;
+    text-align: center
+}
+#learn-more,
+#main-button,
+#title-xs,
+.big-image a,
+.dropdown-menu,
+.main-form-signup,
+.topbar,
+ul.dropdown-menu>li>a {
+    text-align: center
+}
+a,
+body,
+h1,
+h2,
+h3,
+h5,
+li,
+p {
+    font-family: 'Source Sans Pro'!important;
+    font-weight: 200!important;
+    font-size: 16px;
+    background-color: #fff;
+    color: #595959
+}
+.big-image h2,
+h4 {
+    font-family: Muli
+}
+h1 {
+    font-size: 1.5em
+}
+h2 {
+    font-size: 1em;
+    line-height: 1.2em
+}
+h3 {
+    font-size: 1.3em
+}
+h4 {
+    padding-top: 20px;
+    font-size: 1.5em
+}
+h5 {
+    color: #EF5444;
+    font-size: 1.2em;
+    padding-top: 10px
+}
+a:hover h5 {
+    color: #87cfd5
+}
+.topbar h1,
+a,
+a:hover {
+    color: #fff
+}
+a:hover {
+    text-decoration: none
+}
+.topbar {
+    background: #595959;
+    height: 125px;
+    padding-top: 40px
+}
+.topbar h1 {
+    font-size: 2.75em
+}
+#grey-nav {
+    border: none;
+}
+.navbar-nav>li>a {
+    margin: 15px 10px 10px;
+    line-height: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #595959
+}
+.navbar-nav>li>a:not(#how-it-works-nav):hover {
+    background-color: #87cfd5;
+    color: #fff;
+    text-shadow: none;
+    font-size: 15px
+}
+#how-it-works-nav:hover {
+    background: 0 0
+}
+.navbar-nav>li>.btn-sign-up>a {
+    color: #fff;
+    font-size: 15px
+}
+.landing-text {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px
+}
+.top-section {
+    margin-top: 30px
+}
+.navbar-nav>li>.btn-sign-up>a:hover {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none
+}
+#about p>a:hover,
+.huffpost a:hover,
+.jobs p>a:hover {
+    text-decoration: underline
+}
+.navbar {
+    padding: .5em 1.5em;
+}
+.navbar-toggle {
+    padding: 0;
+}
+.navbar .navbar-fixed-top {
+    background-color: #EBEBEB;
+    color: #595959;
+    border: none
+}
+.dropdown-menu .submenu {
+    visibility: hidden
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible
+}
+.dropdown:hover .dropdown-menu {
+    <!--display: block
+}
+.navbar-brand img {
+    margin-right: 7px;
+    padding: 0
+}
+#mobile-menu {
+    width: 30px
+}
+.navbar-brand {
+    color: #595959;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 7px 15px
+}
+.btn-log-in {
+    border: 1px solid #595959
+}
+.btn-job,
+.btn-sign-up {
+    margin-top: 7px;
+    margin-left: 10px;
+    border: none;
+    text-shadow: none;
+    color: #fff
+}
+.btn-sign-up {
+    background-color: #EF5444
+}
+.btn-sign-up:hover {
+    background-color: #87cfd5;
+    color: #fff
+}
+.btn-job {
+    background-color: #9FD7DB
+}
+.btn-job:hover {
+    background-color: #87cfd5;
+    color: #fff
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff
+}
+.navbar-toggle {
+    border-color: #fff
+}
+.customers-div {
+    padding-top: 5px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none!important
+}
+.customers-div-wrapper {
+    width: 100%
+}
+.sample-thumbnail {
+    width: 65%;
+    margin: 0 auto;
+    display: block
+}
+#all-devices {
+    width: 100%
+}
+button.navbar-toggle {
+    margin-right: 0!important
+}
+div.how-makes-better {
+    margin-left: 45px!important;
+    margin-right: 45px!important;
+    margin-bottom: 50px
+}
+.how-makes-better .how-makes-better-section,
+.how-makes-better-section>p {
+    padding-left: 20px;
+    padding-right: 20px
+}
+.dropdown-menu {
+    background-color: #EBEBEB;
+    padding: 0;
+    border: none
+}
+ul.dropdown-menu>li>a {
+    background: #EBEBEB;
+    color: #595959;
+    padding: 10px
+}
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+ul.dropdown-menu>li>a:hover {
+    background: #87cfd5;
+    color: #fff
+}
+.nav .caret {
+    border-top-color: #595959;
+    border-bottom-color: #595959
+}
+.nav .open>a .caret,
+.nav .open>a:focus .caret,
+.nav .open>a:hover .caret,
+.nav a:hover .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff
+}
+.big-image {
+    background-size: 768px;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    color: #595959;
+    padding-top: 55px;
+    padding-right: 30px
+}
+.big-image h3,
+a:hover #learn-more {
+    color: #87cfd5
+}
+.big-image h3 {
+    margin-bottom: 0
+}
+.landing-image,
+.landing-image full {
+    max-height: 400px;
+    margin: 0 auto 30px
+}
+#landing {
+    padding-top: 40px;
+    padding-bottom: 25px
+}
+.tryit h3 {
+    margin-top: 10px;
+    margin-bottom: 0
+}
+.tryit-form {
+    padding-bottom: 30px
+}
+#main-form {
+    padding-top: 10px
+}
+.main-form-signup {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin-left: 0;
+    margin-bottom: 20px
+}
+#learn-more {
+    padding-bottom: 5px;
+    color: #595959
+}
+#title-xs {
+    color: #EF5444;
+    margin-top: 50px
+}
+.publet-how-header {
+    padding-top: 90px
+}
+.you-statements {
+    padding-top: 8px;
+    margin: 0
+}
+.you-wrapper {
+    padding-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px
+}
+#description {
+    font-size: 1.2em
+}
+#description1 {
+    margin-top: 25px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #E6E6E6
+}
+.email-submit-wrapper {
+    max-width: 400px;
+    margin: 0 auto
+}
+#how-it-works img,
+#with-without,
+.logo {
+    max-width: 100%
+}
+#description-xs,
+#description2 {
+    color: #EF5444;
+    margin-top: 0;
+    text-align: center
+}
+.package-box,
+.vegetation {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.email-submit-button {
+    background-color: #9FD7DA
+}
+#description-xs {
+    padding-top: 0
+}
+#description2 {
+    margin-bottom: 30px
+}
+#how-it-works,
+.section {
+    margin-top: 70px;
+    margin-bottom: 70px
+}
+.section ul {
+    padding-left: 20px
+}
+.section li {
+    padding-top: 15px;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    font-weight: 50
+}
+#how-it-works h2,
+.section h2 {
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 25px
+}
+#how-it-works li {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    width: 100%
+}
+#how-it-works li:hover {
+    cursor: pointer;
+    cursor: hand
+}
+#how-it-works {
+    margin-top: 0
+}
+#how-works-text,
+.vegetation {
+    margin-top: 30px
+}
+#leaf {
+    max-width: 15%;
+    max-height: 15%
+}
+.package-box {
+    border: 1px solid #595959;
+    border-radius: 8px;
+    padding: 20px
+}
+.package-box p,
+li {
+    font-size: 1.2em
+}
+#with-without {
+    max-height: 100%
+}
+.chosen {
+    font-weight: 800!important;
+    color: #EF5444!important
+}
+img.how-icons-img {
+    width: 150px;
+    height: auto;
+    margin: 30px auto 25px;
+    display: block
+}
+.how-icons-img-wrapper {
+    height: 200px
+}
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+.ogilvy-logo {
+    padding-top: 35px
+}
+#how-works-text li {
+    padding: 5px 25px 20px 0;
+    height: 101px
+}
+.bottom-text {
+    background-color: #E6E6E6;
+    padding-bottom: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 35px
+}
+.anchor {
+    margin-top: 0;
+    padding-top: 40px
+}
+#brands-header {
+    font-size: 2em;
+    margin-bottom: 50px
+}
+#laptop-video-container {
+    background-image: url(../images/laptop.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 360px;
+    position: relative;
+    background-size: 100%
+}
+#laptop-video-container video {
+    position: absolute;
+    z-index: 500;
+    left: 70px;
+    max-width: 100%;
+    height: 350px
+}
+#bottom-start-button {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 20px 30px;
+    font-size: 25px
+}
+.huffpost {
+    padding: 0;
+    font-family: Georgia, Century, Times, serif;
+    text-align: center
+}
+.huffpost img {
+    max-height: 100px;
+    float: block;
+    clear: none
+}
+.huffpost p {
+    color: #595959;
+    padding-bottom: 0
+}
+.huffpost a {
+    color: #428bca
+}
+.huffpost a:hover {
+    color: #2a6496
+}
+blockquote:after,
+blockquote:before {
+    color: #ccc;
+    font-size: 3em;
+    line-height: .5em;
+    position: absolute
+}
+.huffpost h2 {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 0;
+    display: inline
+}
+#footer,
+#footer-logo,
+.center-img,
+.main-content {
+    text-align: center
+}
+.center-img {
+    vertical-align: middle
+}
+blockquote {
+    border: none;
+    padding-bottom: 10px;
+    margin: 30px 40px 5px
+}
+.content-marketing,
+.reports,
+.style-guides {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    margin-top: 20px
+}
+blockquote:before {
+    content: "\0201C";
+    left: 40px;
+    top: 15px
+}
+blockquote:after {
+    content: "\0201D";
+    right: 50px
+}
+#footer-text,
+.main-content,
+.main-content h4>a,
+blockquote p {
+    color: #595959
+}
+blockquote p {
+    font-size: 1em
+}
+.main-content img {
+    max-height: 175px
+}
+.main-content h3 {
+    font-size: 1.25em
+}
+#dotted-line-above {
+    border-top: dashed;
+    border-top-width: 2px;
+    border-top-color: #595959
+}
+#dotted-line-below {
+    border-bottom: dashed;
+    border-bottom-width: 2px;
+    border-bottom-color: #595959
+}
+.style-guides {
+    width: 160px;
+    background-image: url(../images/billboard.png)
+}
+a:hover div.style-guides {
+    background-image: url(../images/billboard-blue.png)
+}
+.content-marketing {
+    width: 170px;
+    background-image: url(../images/book.png)
+}
+a:hover div.content-marketing {
+    background-image: url(../images/book-blue.png)
+}
+.reports {
+    width: 150px;
+    background-image: url(../images/reports.png)
+}
+a:hover div.reports {
+    background-image: url(../images/reports-blue.png)
+}
+.spacebelow {
+    margin-bottom: 20px
+}
+.spaceabove {
+    margin-top: 15px
+}
+#footer {
+    background-color: #EBEBEB
+}
+#footer-logo {
+    padding: 20px;
+    display: inline;
+    height: 175px
+}
+.footer-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding-left: 15px
+}
+#footer-products {
+    text-align: left
+}
+#footer-products .nav>li>a {
+    padding-top: 10px;
+    color: #595959;
+    font-size: 14px
+}
+#footer-products .nav>li>a:hover {
+    background-color: #87cfd5;
+    color: #fff
+}
+.whypublet,
+.whypublet h2,
+.whypublet h5 {
+    color: #595959
+}
+.footer-border {
+    border-bottom: solid 1px #595959
+}
+#socialmedia>ul.nav>li>a {
+    height: 33px;
+    width: 33px;
+    margin-bottom: 8px
+}
+#socialmedia>ul.nav>li.facebook>a {
+    background: url(../images/social-media-sprite.png) -1px 0
+}
+#socialmedia>ul.nav>li.facebook>a:hover {
+    background: url(../images/social-media-sprite.png) -40px 0
+}
+#socialmedia>ul.nav>li.twitter>a {
+    background: url(../images/social-media-sprite.png) -1px -34px
+}
+#socialmedia>ul.nav>li.twitter>a:hover {
+    background: url(../images/social-media-sprite.png) -40px -34px
+}
+#socialmedia>ul.nav>li.linkedin>a {
+    background: url(../images/social-media-sprite.png) -1px -67px
+}
+#socialmedia>ul.nav>li.linkedin>a:hover {
+    background: url(../images/social-media-sprite.png) -40px -67px
+}
+#socialmedia>ul.nav>li.googleplus>a {
+    background: url(../images/social-media-sprite.png) -1px -100px
+}
+#socialmedia>ul.nav>li.googleplus>a:hover {
+    background: url(../images/social-media-sprite.png) -40px -100px
+}
+.whypublet {
+    text-align: center;
+    padding-top: 10px
+}
+.whypublet p {
+    text-align: left;
+    padding-bottom: 0;
+    padding-top: 30px
+}
+.why-vals,
+.whypublet img {
+    padding-bottom: 20px
+}
+.whypublet .center-text p {
+    text-align: center
+}
+.faq h2,
+.why-vals h2,
+.why-vals li {
+    text-align: left
+}
+.whypublet img {
+    width: 100%;
+    max-width: 400px;
+    padding-left: 10px;
+    padding-right: 20px
+}
+.why-vals img {
+    margin-bottom: 30px
+}
+.why-vals h3 {
+    color: #333;
+    padding-bottom: 30px;
+    margin: 0
+}
+.why-vals h2 {
+    font-size: 1.2em;
+    margin-top: 0
+}
+.right-border {
+    border-right: none
+}
+.pricing-button {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 9px 15px
+}
+.pricing-box {
+    padding-right: 20px;
+    padding-left: 20px
+}
+div.row.pricing {
+    box-shadow: none;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px
+}
+.pricing h3 {
+    font-size: 1em;
+    margin-top: 10px
+}
+.top-border h3 {
+    border-top: 1px #595959 solid;
+    padding-top: 20px
+}
+.subhead h1 {
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+.pricing h2 {
+    font-size: 1.5em;
+    color: #87cfd5;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 15px;
+    margin-bottom: 5px
+}
+.pricing h1 {
+    font-size: 1.75em;
+    padding: 0 0 0 13px
+}
+.faq p,
+.whopage h1 {
+    padding-top: 10px
+}
+.xs-borders {
+    border: 1px solid #595959
+}
+.callus {
+    padding-bottom: 30px;
+    margin-bottom: 20px
+}
+.callus h2 {
+    font-size: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 10px
+}
+.phone {
+    color: #87cfd5;
+    font-size: 1.25em
+}
+.whopage a h1,
+.whopage h2 {
+    color: #595959
+}
+.faq h2 {
+    font-size: 1.2em;
+    padding-bottom: 0;
+    padding-left: 0
+}
+.whopage div,
+.whopage h1,
+.whopage h2 {
+    text-align: center
+}
+.whopage h1 {
+    font-size: 2em;
+    padding-left: 0
+}
+.whopage h2 {
+    font-size: 1em;
+    margin-left: 15px;
+    margin-top: 10px
+}
+.whopage .not-current {
+    border-bottom: 6px #595959 solid
+}
+.whopage a:hover h1 {
+    color: #CCC
+}
+a:hover .not-current {
+    border-bottom-color: #CCC
+}
+.whopage .current {
+    border-bottom: 6px #87cfd5 solid
+}
+.whopage .current h1 {
+    color: #87cfd5
+}
+.whopage img {
+    border-radius: 30px;
+    border: 3px solid #595959;
+    margin: 20px auto 40px
+}
+.whopage p {
+    text-align: left;
+    color: #595959;
+    padding-bottom: 20px
+}
+.signup-who {
+    border: 1px solid #595959;
+    padding: 15px;
+    text-align: center
+}
+.whopage h3 {
+    color: #EF5444;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0
+}
+.howpage h2,
+.howpage p,
+.keyfeat,
+.whopage .subhead h1,
+.whopage h5 {
+    color: #595959
+}
+.separator {
+    margin-top: 10px;
+    padding-top: 30px;
+    border-top: 3px #595959 dashed
+}
+.keyfeat img {
+    height: 100px;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 20px
+}
+.keyfeat li {
+    text-align: left
+}
+.how h3,
+.howpage {
+    text-align: center
+}
+.keyfeat h4 {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0
+}
+.whopage .keyfeat p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+.blue {
+    background-color: #87cfd5
+}
+.howpage {
+    margin-top: 20px
+}
+.how h3 {
+    color: #87cfd5;
+    margin-top: 0;
+    padding-bottom: 10px
+}
+.blue h3 {
+    color: #fff
+}
+li.how {
+    color: #595959;
+    text-align: left
+}
+.how img {
+    max-height: 400px;
+    margin: 20px auto
+}
+#how-it-works img {
+    max-height: 491px
+}
+.data {
+    box-shadow: 5px 5px 5px #888;
+    border: 1px solid #CCC
+}
+.arrow {
+    height: 150px
+}
+.current-product,
+.other-products {
+    padding-top: 10px;
+    height: 66px;
+    vertical-align: middle
+}
+.current-product {
+    border-left: 2px #CCC solid;
+    border-right: 2px #CCC solid;
+    border-top: 2px #CCC solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.other-products {
+    border-bottom: 2px #CCC solid
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 10px
+}
+.productpage .section-header h1 {
+    padding-bottom: 0;
+    padding-left: 10px;
+    font-size: 1em;
+    margin-top: 0;
+    vertical-align: middle;
+    color: #EF5444
+}
+.productpage,
+.smallergap {
+    margin-top: 20px
+}
+.productpage .section-header>a>.other-products>h1 {
+    color: #595959;
+    vertical-align: middle
+}
+.productpage .section-header>a:hover>.other-products>h1 {
+    color: #CCC;
+    vertical-align: middle
+}
+.section-header img {
+    height: 65px;
+    margin-right: 10px
+}
+.productpage {
+    text-align: center;
+    padding-bottom: 30px
+}
+.productpage p {
+    color: #595959;
+    text-align: left;
+    display: block;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px
+}
+#about,
+#contact-container,
+#thankyou,
+.about-img img,
+.jobs h2,
+.jobs img {
+    text-align: center
+}
+.slug {
+    color: #000
+}
+.productpage h2 {
+    color: #595959;
+    font-size: 1.1em
+}
+.productpage img {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+.productpage .mediumimg {
+    width: 350px;
+    padding: 10px 30px 20px 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto
+}
+.product-features {
+    padding-top: 20px;
+    padding-left: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.productpage .smallicons img {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 80px
+}
+.benefits,
+.usesimg {
+    margin-left: auto;
+    margin-right: auto
+}
+#about h7,
+#about-container,
+#contact-container {
+    margin-bottom: 30px
+}
+#about p,
+#contact {
+    margin-bottom: 20px
+}
+.usesimg {
+    width: 300px;
+    display: block
+}
+.productpage .section-header.uses h1 {
+    padding-bottom: 0;
+    padding-left: 10px;
+    font-size: 1.5em;
+    margin-top: 0;
+    vertical-align: middle;
+    color: #EF5444
+}
+.noborder {
+    border: none
+}
+.spaceleft {
+    padding-left: 10px
+}
+.list-good-stuff {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.spacetop {
+    padding-top: 12px
+}
+.productpage .hidden-xs {
+    display: inline
+}
+.benefits {
+    padding-top: 20px;
+    padding-left: 30px;
+    display: block
+}
+#contact img,
+.about-img img {
+    display: inline
+}
+#about-container {
+    margin-top: 60px
+}
+#about {
+    margin-top: 40px;
+    color: #595959;
+    line-height: 1.1em;
+    font-family: Muli, 'Open Sans', sans-serif, Arial
+}
+#about h1,
+#about h2 {
+    font-family: 'Open Sans', sans-serif, Arial
+}
+#about h1 {
+    margin-top: -40px;
+    font-size: 30px;
+    margin-bottom: 40px
+}
+#about h2 {
+    margin-top: 5px;
+    font-size: 24px;
+    margin-bottom: 0;
+    color: #EF5444
+}
+#about h3 {
+    font-size: 20px;
+    margin-top: 0;
+    color: #87cfd5
+}
+#about p {
+    margin-top: 0;
+    text-align: left;
+    padding: 0 10px;
+    font-size: 14px
+}
+#about p>a {
+    color: #428bca
+}
+#about p>a:hover {
+    color: #2a6496
+}
+.about-img {
+    border: 1px solid #fff;
+    border-radius: 150px
+}
+.about-img img {
+    border: 1px solid #595959;
+    border-radius: 150px
+}
+#jobs-container {
+    margin-top: 110px;
+    margin-bottom: 115px
+}
+.jobs h2 {
+    margin-top: 50px;
+    font-size: 1.9em;
+    color: #EF5444
+}
+#contact-container,
+#signup {
+    margin-top: 100px;
+    color: #595959
+}
+.jobs p {
+    font-size: 1.2em;
+    color: #595959
+}
+.jobs p>a {
+    color: #428bca
+}
+.jobs p>a:hover {
+    color: #2a6496
+}
+.jobs img {
+    max-height: 300px
+}
+#contact {
+    border-bottom: dashed 2px #595959
+}
+#contact h2 {
+    color: #EF5444;
+    font-size: 2em
+}
+#contact-info p {
+    text-align: left;
+    color: #595959;
+    padding: 5px 0
+}
+#socialmedia p {
+    padding: 5px 0
+}
+#contact-info>ul.nav>li>a {
+    height: 33px;
+    width: 33px;
+    margin-bottom: 8px
+}
+ul.nav>li.mail>a {
+    background: url(../images/social-media-sprite.png) -1px -134px
+}
+ul.nav>li.mail>a:hover {
+    background: url(../images/social-media-sprite.png) -39px -134px
+}
+#signup {
+    margin-bottom: 50px
+}
+#signup h2 {
+    color: #EF5444;
+    font-size: 2.5em;
+    padding-bottom: 20px
+}
+#tree {
+    max-height: 40%;
+    max-width: 40%
+}
+@media only screen and (min-width: 320px) {
+    .logo-wrapper {
+        background-color: #E6E6E6
+    }
+    .logo-wrapper img {
+        width: 120px;
+        margin: 20px auto;
+        display: block
+    }
+    .for-header {
+        margin-top: 30px;
+        font-size: 1.3em
+    }
+    .vegetation {
+        margin-top: 0
+    }
+}
+@media (max-width: 1200px) {
+    .you-statements {
+        font-size: 1.3em
+    }
+}
+@media (max-width: 768px) {
+    .hide-small-screen {
+        display: none
+    }
+    h2.for-header {
+        font-size: 1.3em
+    }
+    h2 {
+        font-size: 1.5em
+    }
+}
+img.hide-big-screen {
+    max-width: 100%!important;
+    margin: 0 auto;
+}
+.how-makes-better-section {
+    padding-top: 20px
+}
+.upper-header {
+    padding-bottom: 20px;
+    font-weight: 700
+}
+@media (min-width: 768px) {
+    h1,
+    h2 {
+        padding-left: 30px;
+        text-align: center
+    }
+    #description2,
+    .tryit,
+    h1,
+    h2,
+    h3 {
+        text-align: center
+    }
+    #footer-text,
+    .main-content h2 {
+        margin-top: 40px
+    }
+    #signup,
+    div.row.pricing {
+        box-shadow: 5px 5px 5px #888
+    }
+    .hide-big-screen {
+        display: none
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block
+    }
+    .big-image {
+        background-size: 100%;
+        padding-top: 100px;
+        padding-right: 20px
+    }
+    h1 {
+        font-size: 1.8em;
+        margin-top: 0
+    }
+    h2 {
+        font-size: 2em;
+        color: #595959
+    }
+    h3 {
+        padding-top: 10px
+    }
+    p {
+        padding-bottom: 20px
+    }
+    #main-button {
+        margin-top: 10px
+    }
+    #description2 {
+        color: #EF5444;
+        margin-top: 20px;
+        margin-bottom: 30px
+    }
+    #footer-text,
+    .huffpost h1,
+    .jobs h2,
+    .section-header,
+    .whopage h2 {
+        text-align: left
+    }
+    #footer-logo {
+        height: 150px;
+        margin-top: 20px
+    }
+    .productpage p {
+        margin-left: 0;
+        display: inline-block
+    }
+    .productpage h2 {
+        padding-top: 15px;
+        font-size: 1.5em
+    }
+    .product-features {
+        padding-left: 70px;
+        padding-top: 40px
+    }
+    .usesimg {
+        width: 400px
+    }
+    .features-box p {
+        padding-top: 10px;
+        padding-left: 40px
+    }
+    .productpage .mediumimg {
+        width: 300px;
+        margin: 10px 0 0;
+        display: inline-block
+    }
+    .benefits {
+        padding-left: 70px;
+        padding-top: 40px
+    }
+    .jobs h2 {
+        margin-top: 100px
+    }
+    #signup {
+        border: 1px solid #595959;
+        padding: 30px
+    }
+    #signup h1,
+    #signup h2,
+    .pricing h3 {
+        padding-left: 0
+    }
+    blockquote p {
+        font-size: 1.25em
+    }
+    .topbar h1,
+    blockquote:before {
+        font-size: 4em
+    }
+    blockquote:after {
+        font-size: 4em;
+        right: 60px;
+        bottom: -15px
+    }
+    .topbar {
+        height: 150px;
+        padding-top: 65px
+    }
+    #pricing-bigbox {
+        padding-right: 0;
+        padding-left: 0
+    }
+    .pricing-box {
+        padding: 0
+    }
+    .right-border {
+        border-right: 1px #595959 solid
+    }
+    div.pricing-box {
+        height: 600px
+    }
+    div.row.pricing {
+        border: 1px solid #EBEBEB
+    }
+    .separator,
+    .xs-borders {
+        border: none
+    }
+    .pricing-top {
+        height: 160px
+    }
+    .pricing-top h1 {
+        height: 55px
+    }
+    .pricing-top h2 {
+        height: 30px
+    }
+    #small-free-font {
+        font-size: 1.4em
+    }
+    .section-header img {
+        height: 50px
+    }
+    .whopage h1 {
+        font-size: 2em;
+        padding-top: 30px
+    }
+    .whopage h2 {
+        font-size: 1em
+    }
+    .who-vals {
+        padding-top: 50px
+    }
+    .separator {
+        padding-top: 0
+    }
+    .two {
+        margin-top: 60px
+    }
+    .three {
+        margin-top: 80px
+    }
+    .faq {
+        padding-left: 50px;
+        padding-right: 50px
+    }
+    .customer {
+        padding-top: 60px
+    }
+}
+@media (min-width: 992px) {
+    h1,
+    h2 {
+        font-size: 2em
+    }
+    .big-image {
+        background-size: 100%
+    }
+    h2 {
+        color: #595959
+    }
+    p {
+        padding-bottom: 20px
+    }
+    #main-button {
+        margin-bottom: 10px;
+        margin-top: 10px
+    }
+    #description2 {
+        color: #EF5444;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px
+    }
+    #footer-logo {
+        height: 175px;
+        margin-top: 0
+    }
+    .productpage p {
+        text-align: left;
+        display: inline-block
+    }
+    .product-features {
+        padding-top: 50px;
+        padding-left: 0
+    }
+    .productpage .mediumimg {
+        margin: 0;
+        display: inline-block
+    }
+    .smaller-container {
+        padding-left: 70px;
+        padding-right: 70px
+    }
+    .productpage .section-header h1 {
+        font-size: 1em
+    }
+    .productpage. section-header.uses>h1 {
+        font-size: 2em
+    }
+    .section-header img {
+        height: 80px
+    }
+    .benefits {
+        padding-top: 50px;
+        padding-left: 0
+    }
+    .whopage h2 {
+        font-size: 1.25em;
+        padding-top: 10px
+    }
+    .customer,
+    .who-vals {
+        padding-top: 60px
+    }
+    .how h3 {
+        margin-top: 20px
+    }
+    div.pricing-box {
+        height: 550px
+    }
+    #small-free-font {
+        font-size: auto
+    }
+}
+@media (min-width: 1200px) {
+    .big-image {
+        background-size: 100%
+    }
+    h1 {
+        font-size: 3em
+    }
+    h2 {
+        font-size: 2em;
+        color: #595959;
+        padding-right: 30px;
+        padding-bottom: 20px
+    }
+    h3 {
+        font-size: 1.5em
+    }
+    h4 {
+        font-size: 1.75em
+    }
+    .jobs h2,
+    .jobs p {
+        margin-left: 30px
+    }
+    .productpage .section-header h1 {
+        font-size: 1.25em
+    }
+    .productpage. section-header.uses>h1 {
+        font-size: 1.75em
+    }
+    .pricing-top {
+        height: auto
+    }
+    .pricing-top h1 {
+        height: 1.5em
+    }
+    .pricing-top h2 {
+        height: auto;
+        margin-top: 0
+    }
+    div.pricing-box {
+        height: 500px
+    }
+    .whopage h2 {
+        font-size: 1.25em;
+        padding-right: 0;
+        padding-left: 0
+    }
+    .whopage p {
+        padding-top: 30px
+    }
+    .two {
+        margin-top: 20px
+    }
+}
+.how-div {
+    margin-bottom: 1em;
+}
