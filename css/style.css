@@ -72,7 +72,7 @@ a:hover {
     border: none;
 }
 .navbar-nav>li>a {
-    margin: 15px 10px 10px;
+    margin: 5px;
     line-height: 10px;
     font-size: 15px;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ a:hover {
     line-height: 35px
 }
 .top-section {
-    margin-top: 30px
+    margin-top: 70px
 }
 .navbar-nav>li>.btn-sign-up>a:hover {
     color: #fff;
@@ -111,7 +111,7 @@ a:hover {
     text-decoration: underline
 }
 .navbar {
-    padding: .5em 1.5em;
+    padding: .5em 1.5em 0em 1.5em;
 }
 .navbar-toggle {
     padding: 0;
@@ -1477,4 +1477,7 @@ img.hide-big-screen {
 a.thankyou-link {
     color: #428bca;
     font-size: 24px;
+}
+.navbar {
+    background:white;
 }
