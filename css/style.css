@@ -57,11 +57,6 @@ h5 {
 a:hover h5 {
     color: #87cfd5
 }
-.topbar h1,
-a,
-a:hover {
-    color: #fff
-}
 a:hover {
     text-decoration: none
 }
@@ -1478,4 +1473,8 @@ img.hide-big-screen {
 }
 .how-div {
     margin-bottom: 1em;
+}
+a.thankyou-link {
+    color: #428bca;
+    font-size: 24px;
 }

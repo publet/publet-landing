@@ -10,6 +10,7 @@ $(document).ready(function() {
 });
 
 function formSubmit(event) {
+  console.log(event)
   var email = event.target.elements[0].value
   if (email === '') {
     return false;
