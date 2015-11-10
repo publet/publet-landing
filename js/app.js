@@ -33,7 +33,7 @@ function nextStep() {
   changeStep(hows[i]);
   i = (i + 1) % hows.length;
 }
-var intervalFunc = window.setInterval(nextStep, 2000);
+var intervalFunc = window.setInterval(nextStep, 4000);
 
 function changeStep(element) {
   hows.removeClass("chosen");
