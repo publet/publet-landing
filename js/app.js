@@ -22,7 +22,7 @@ function formSubmit(event) {
       email: email
     },
     success: function() {
-      window.location = '/thankyou.html';
+      window.location = 'https://sandbox.publet.com/editor/#/';
     }
   });
 }
