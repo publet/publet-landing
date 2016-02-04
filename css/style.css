@@ -318,6 +318,9 @@ a:hover #learn-more {
     margin-top: 0;
     text-align: center
 }
+.with-without-wrapper {
+    text-align: center;
+}
 .package-box,
 .vegetation {
     margin-left: auto;
@@ -1116,9 +1119,6 @@ ul.nav>li.mail>a:hover {
     max-width: 40%
 }
 @media only screen and (min-width: 320px) {
-    .logo-wrapper {
-        background-color: #E6E6E6
-    }
     .logo-wrapper img {
         width: 120px;
         margin: 20px auto;
