@@ -1163,7 +1163,6 @@ img.hide-big-screen {
 @media (min-width: 768px) {
     h1,
     h2 {
-        padding-left: 30px;
         text-align: center
     }
     #description2,
